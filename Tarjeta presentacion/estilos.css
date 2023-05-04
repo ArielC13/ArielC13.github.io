@@ -1,0 +1,63 @@
+#principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor{
+    background-color: blanchedalmond;
+    border: 2px solid blue;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px lightblue;
+    width: 450px;
+    height: 300px;
+    padding: 30px;
+}
+
+#superior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.titulos{
+    font-family: Arial;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.programador{
+    font-size: 15px;
+}
+
+#inferior{
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    font-family: "Helvetica";
+    font-size: 15px;
+}
+
+.empresa{
+    display: flex;
+    flex-direction: column;
+    font-family: "Helvetica";
+    font-size: 15px;
+}
+
+.samsung{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#logo{
+    width: 160px;
+    height: 100px;
+    margin-right: 10px;
+}

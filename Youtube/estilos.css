@@ -1,0 +1,127 @@
+body {
+    padding: 30px;
+  }
+  
+  .contenedor-grid{
+    display: grid;
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+    grid-template-areas:
+    "BarraSuperior BarraSuperior BarraSuperior BarraSuperior"
+    "Seleccion Videojuegos Música Novedad"
+    "Seleccion Videojuegos Música Novedad"
+    "Seleccion Videojuegos Música Novedad"
+    "Seleccion Videojuegos Música Novedad";
+  }
+    
+  .yt-icon{
+    height: 2rem;
+  }
+  
+  .icono-microfono{
+    height: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .BarraSuperior{
+    grid-area: BarraSuperior;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+  
+  .barra-busqueda{
+    margin-left: 10rem;
+    width: 350px;
+    border-radius: 15px;
+    border: 1px solid gray;
+  }
+  
+  .Seleccion{
+    grid-area: Seleccion;
+    margin-top: 30px;
+  }
+  
+  p{
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+  }
+  
+  .Inicioyt{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: -5px;
+  }
+  
+  .Shortsyt{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: -5px;
+   }
+   
+   .Suscripcionesyt{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: -5px;
+   }
+    
+  .Historialyt{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: -5px;
+   }
+   
+   .MisVideosyt{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: -5px;
+   }
+   
+   .MasTardeyt{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: -5px;
+   }
+   
+   
+   
+   h2{
+     background-color: black;
+     color: white;
+   }
+   
+   .Videojuegos{
+     grid-area: Videojuegos;
+     margin-top: 10px;
+     margin-right: 50px;
+     margin-left: 50px;
+   }
+   
+   .Musica{
+     grid-area: Música;
+     margin-top: 10px;
+     margin-right: 50px;
+   }
+   
+   .Novedad{
+     grid-area: Novedad;
+     margin-top: 10px;
+   }
+   
+   .Iconos{
+     height: 20px;
+     width: 20px;
+   }
+   
+   .Miniaturas{
+     height: 150px;
+     width: 250px;
+   }

@@ -1,0 +1,157 @@
+.contenedor-grid{
+    display: grid;
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+    
+    grid-template-areas:
+    "topbar    topbar topbar topbar topbar"
+    "sidebar   story  story  story  messages"
+    "sidebar   post   post   post   messages"
+    ;
+ }
+ 
+ #barra-superior{
+   grid-area: topbar;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   column-gap: 5px;
+   box-shadow: 0px 1px 2px grey;
+   z-index: 1;
+ }
+ 
+ .BuscarFacebook{
+   border-radius: 15px;
+   border: 1px solid gray;
+   width: 250px;
+ }
+ 
+ #logo{
+   height: 30px;
+ }
+ 
+ #barra-lateral{
+   grid-area: sidebar;
+   background-color: #f7f7f7;
+ }
+ 
+ #historias{
+   background-color: #f0f2f5;
+   grid-area: story;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 20px;
+ }
+ 
+ #contactos{
+   grid-area: messages;
+   background-color: #f7f7f7;
+ }
+ 
+ #posteos{
+   grid-area: post;
+   background-color: #f0f2f5;
+ }
+ 
+ .imagenes{
+   max-width: 30%;
+   margin: 5px;
+   align-items: center;
+ }
+ 
+ .imgs{
+   width: 80px;
+   height: 70px;
+   border-radius: 50%;
+   overflow: hidden;
+ }
+ 
+ #icons{
+   display: flex;
+   align-items: center;
+   width: 10px;
+ }
+ 
+ .buttons:hover{
+   color: blue;
+ }
+ 
+ #botones{
+   display: flex;
+   column-gap: 20px;
+   margin-left: 15px;
+   align-items: center;
+ }
+ 
+ p{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+ }
+ 
+ h4{
+   margin-top: 10px;
+   align-items: center;
+ }
+ 
+ .perfil{
+   border-radius: 50%;
+ }
+ 
+ .Escribirpost{
+   display: flex;
+   gap: 15px;
+ }
+ 
+ .barraposteo{
+   width: 500px;
+ }
+ 
+ .Iconospost{
+   display: flex;
+   align-items: center;
+   margin-left: 10px;
+   gap: 70px;
+   font-family: Segoe ui historic;
+ }
+ 
+ .Iconos{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   
+ }
+ 
+ .Netflix{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   font-family: Segoe ui historic;
+ }
+ 
+ .Netflixperfil{
+   border-radius: 50%;
+   margin-top: 12px;
+ }
+ 
+ .Netflixpost{
+   font-family: arial;
+   font-size: 18px;
+ }
+ 
+ #contactos{
+   margin-left: 5px;
+ }
+ 
+ .contactosfb{
+   border-radius: 50%;
+   
+ }
+ 
+ .contacts{
+   font-family: arial;
+   font-size: 18px;
+ }
