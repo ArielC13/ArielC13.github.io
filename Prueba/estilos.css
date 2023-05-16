@@ -1,0 +1,387 @@
+body{
+    background-image: url("https://fondosmil.com/fondo/9928.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor{
+    display: grid;
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+    padding: 30px;
+    grid-template-areas: 
+    "BarraSuperior1 BarraSuperior1 BarraSuperior1 BarraSuperior1"
+    "BarraSuperior2 BarraSuperior2 BarraSuperior2 BarraSuperior2"
+    "Contenido Contenido Contenido ContenidoExtra"
+    "Contenido Contenido Contenido ContenidoExtra"
+    ;
+}
+
+.BarraSuperior1{
+    grid-area: BarraSuperior1;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.GamerBlog{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.LogoBlog{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.NombrePagina{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(27, 55, 214);
+    font-style: oblique;
+    text-shadow: 2px 2px 2px rgb(218, 153, 32);
+    font-size: 30px;
+}
+
+.SearchBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+
+.buscador{
+    height: 40px;
+    width: 450px;
+    font-family: Arial;
+    margin-left: 250px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgb(228, 226, 226);
+    padding-left: 8px;
+}
+
+.buscador:hover{
+    box-shadow: 3px 3px 10px rgb(206, 201, 201);
+}
+
+.buscador:focus-visible{
+    border: 0px;
+    outline: white;
+}
+
+.SearchIcon{
+    height: 28px;
+    width: 28px;
+}
+
+p{
+    font-size: 18px;
+    font-family:'Segoe UI';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+}
+nav{
+	max-width: 300px;
+    margin-left: 10%;
+	background-color: #333;
+	font-size: 20px;
+	margin-top: 10x;
+    margin-right: 20px;
+}
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+}
+
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+    font-family: Arial;
+}
+
+.menu-horizontal > li:hover{
+	background-color: rgb(51, 70, 240);
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+    background-color: gray;
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: black;
+}
+
+.Usuario{
+    width: 200px;
+    padding: 5px;
+    font-family: Georgia;
+}
+
+.Contrasena{
+    width: 200px;
+    padding: 5px;
+    font-family: Georgia;
+}
+
+.Ingresar{
+    height: 30px;
+    width: 200px;
+    font-family: Georgia;
+}
+
+
+.BarraSuperior2{
+    grid-area: BarraSuperior2;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.Categorias{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+h3:hover{
+    border-bottom: 2px solid rgb(77, 77, 201);
+    transform:scale(1.1);
+}
+
+.Contenido{
+    grid-area: Contenido;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-right: 2px solid gray;
+    padding: 10px;
+}
+
+.Contenido1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Titulo1{
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.Zelda{
+    height: 500px;
+    width: 850px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Noticia1Parte1{
+    font-size: 20px;
+    font-family: "Calibri";
+}
+
+.Noticia1Parte2{
+    font-size: 20px;
+    font-family: "Calibri";
+    color: rgb(38, 38, 235);
+}
+
+.Noticia1Parte3{
+    font-size: 20px;
+    font-family: "Calibri";
+}
+
+.Noticia1Parte4{
+    font-size: 20px;
+    font-family: "Calibri";
+    color: gray;
+    margin-left: 50px;
+}
+
+.Contenido2{
+    display: flex;
+    flex-direction: column;
+}
+
+.Titulo2{
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.DLC{
+    height: 500px;
+    width: 850px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Noticia2{
+    font-size: 20px;
+    font-family: "Calibri";
+}
+
+.Contenido3{
+    display: flex;
+    flex-direction: column;
+}
+
+.Titulo3{
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.Xbox{
+    height: 500px;
+    width: 850px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Noticia3parte1{
+    font-size: 20px;
+    font-family: "Calibri";
+}
+
+.Noticia3parte2{
+    font-size: 20px;
+    font-family: "Calibri";
+    margin-left: 30px;
+    font-style: italic;
+}
+
+.ContenidoExtra{
+    grid-area: ContenidoExtra;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Registro{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.CampoTexto{
+    height: 25px;
+    width: 300px;
+    font-family: Arial;
+}
+
+.CrearCuenta{
+    height: 30px;
+    width: 100px;
+    font-family: Arial;
+    background-color: rgb(42, 70, 233);
+    color: white;
+}
+
+.CrearCuenta:hover{
+    transform:scale(1.1);
+}
+
+.CrearCuenta:focus-visible{
+    color: blue;
+}
+
+.PublicacionExtra1{
+    margin-top: 40px;
+    position: relative;
+    display: inline-block;
+}
+
+.texto-centrado1{
+    position: absolute;
+    top: 190px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px;
+    font-size: 30px;
+    -webkit-text-stroke: 0.3px black;
+}
+
+.NoticiaExtra{
+    height: 350px;
+    width: 500px;
+}
+
+.PublicacionExtra2{
+    margin-top: 40px;
+    position: relative;
+    display: inline-block;
+}
+
+.texto-centrado2{
+    position: absolute;
+    top: 150px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px;
+    font-size: 30px;
+    -webkit-text-stroke: 0.3px black;
+}
+
+.PublicacionExtra3{
+    margin-top: 40px;
+    position: relative;
+    display: inline-block;
+}
+
+.texto-centrado3{
+    position: absolute;
+    top: 220px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px;
+    font-size: 30px;
+    -webkit-text-stroke: 0.3px black;
+}
+
+.PublicacionExtra4{
+    margin-top: 40px;
+    position: relative;
+    display: inline-block;
+}
+
+.texto-centrado4{
+    position: absolute;
+    top: 190px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px;
+    font-size: 30px;
+    -webkit-text-stroke: 0.3px black;
+}
+
+
+
