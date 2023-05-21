@@ -17,40 +17,73 @@
             </h2>
             </div>
             <div class = "SearchBar">
-                <input type = "text" class = "buscador" placeholder= "Buscar">
-            <button>
-                <img src = "https://cdn-icons-png.flaticon.com/512/158/158740.png" class = "SearchIcon">
-            </button>
+                <input type= "text" name="input" placeholder ="Buscar" class = "Buscador">
+                <svg class="IconBusqueda" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
             </div>
             <nav>
                 <ul class="menu-horizontal">
                     <li>
                         <a href="#">Iniciar sesion</a>
                         <ul class="menu-vertical">
+                            <form method = "get" action = "#">
                             <li>
-                                <input type = "text" placeholder= "Usuario" class = "Usuario">
+                                <input type = "text" placeholder= "Usuario" class = "Usuario" name = "Usuario">
                             </li>
                             <li>
-                                <input type = "text" placeholder = "Contraseña" class = "Contrasena">
+                                <input type = "text" placeholder = "Contraseña" class = "Contrasena" name = "Contrasena">
                             </li>
                             <li>
-                                <input type = "button" value = "Ingresar" class = "Ingresar">
+                                <input type = "submit" value = "Ingresar" class = "Ingresar" name = "Ingresar">
                             </li>
+                        </form>
                         </ul>
                     </li>
                 </ul>
             </nav>
         </div>
         <div class = "BarraSuperior2">
-            <div class = "Categorias">
-                <h3>Inicio</h3>
-                <h3>Noticias</h3>
-                <h3>PC</h3>
-                <h3>Xbox</h3>
-                <h3>Playstation</h3>
-                <h3>Nintendo Switch</h3>
-                <h3>Más</h3>
-            </div>
+            <nav class = "Categorias">
+                <ul class="menu-categorias">
+                    <li><a href="#">Inicio</a></li>
+                    <li>
+                        <a href="#">Noticias</a>
+                    </li>
+                    <li>
+                        <a href="#">PC</a>
+                    </li>
+                    <li>
+                        <a href="#">Xbox</a>
+                        <ul class="menu-opciones">
+                            <li><a href="#">Xbox 360</a></li>
+                            <li><a href="#">Xbox One</a></li>
+                            <li><a href="#">Xbox Series</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Playstation</a>
+                        <ul class="menu-opciones">
+                            <li><a href="#">PS3</a></li>
+                            <li><a href="#">PS4</a></li>
+                            <li><a href="#">PS5</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Nintendo Switch</a>
+                    </li>
+                    <li>
+                        <a href="#">Más</a>
+                        <ul class="menu-opciones">
+                            <li><a href="#">Peliculas</a></li>
+                            <li><a href="#">Series</a></li>
+                            <li><a href="#">Curiosidades</a></li>
+                            <li><a href="#">Analisis</a></li>
+                            <li><a href="#">Lanzamientos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </div>
         <div class = "Contenido">
             <div class = "Contenido1">
@@ -165,6 +198,35 @@
                 Los peores campeones de League of Legends que ningún jugador profesional ha elegido en la Temporada 13
             </div>
         </div>
+        <br><br>
+        <h2 class = "SeguirRedes">También podes seguirme en mis redes sociales</h2>
+        <div class = "redes-sociales">
+            <div class = "Facebook">
+                <a href = "https://es-la.facebook.com/">
+                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" class = "facebook-icon">
+                </a>
+                <p class = "TituloRedSocial">Facebook</p>
+            </div>
+            <div class = "Twitter">
+                <a href = "https://twitter.com/">
+                <img src = "https://cdn.icon-icons.com/icons2/1231/PNG/512/1492693505-1-twitter_83571.png" class = "twitter-icon">
+                </a>
+                <p class = "TituloRedSocial">Twitter</p>
+            </div>
+            <div class = "Instagram">
+                <a href = "https://www.instagram.com/">
+                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" class = "instagram-icon">
+                </a>
+                <p class = "TituloRedSocial">Instagram</p>
+            </div>
+            <div class = "Youtube">
+                <a href = "https://www.youtube.com/">
+                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1024px-YouTube_full-color_icon_%282017%29.svg.png" class = "youtube-icon">
+                </a>
+                <p class = "TituloRedSocial">Youtube</p>
+            </div>
+        </div>
+    </div>
     </div>
 </body>
 </html>
