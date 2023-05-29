@@ -89,6 +89,7 @@ body{
 	box-sizing: border-box;
 	font-family: 'Open Sans';
 }
+
 nav{
 	max-width: 300px;
     margin-left: 40%;
@@ -175,9 +176,11 @@ nav{
 	color: white;
 	text-decoration: none;
 }
+
 .menu-categorias > li:hover{
 	background-color: rgb(51, 70, 240);
 }
+
 .menu-opciones{
 	position: absolute;
 	display: none;
@@ -338,6 +341,7 @@ h3:hover{
     height: 25px;
     width: 300px;
     font-family: Arial;
+    padding: 5px;
 }
 
 .registrarse{
@@ -349,6 +353,7 @@ h3:hover{
     height: 30px;
     width: 100px;
     font-family: Arial;
+    font-size: 15px;
     background-color: rgb(42, 70, 233);
     color: white;
 }
@@ -359,6 +364,11 @@ h3:hover{
 
 .CrearCuenta:focus-visible{
     color: blue;
+}
+
+.NoticiaExtra{
+    height: 350px;
+    width: 500px;
 }
 
 .PublicacionExtra1{
@@ -375,11 +385,6 @@ h3:hover{
     padding: 10px;
     font-size: 30px;
     -webkit-text-stroke: 0.3px black;
-}
-
-.NoticiaExtra{
-    height: 350px;
-    width: 500px;
 }
 
 .PublicacionExtra2{
@@ -431,7 +436,7 @@ h3:hover{
 }
 
 .SeguirRedes{
-    margin-top: 30%;
+    margin-top: 20%;
     font-size: 24px;
     font-family: 'Franklin Gothic Medium';
 }
@@ -519,7 +524,207 @@ h3:hover{
     color: rgb(212, 142, 62);
 }
 
+@media screen and (max-width: 500px){
 
+    .LogoBlog{
+        height: 30px;
+        width: 20%;
+    }
+    
+    .NombrePagina{
+        font-size: 20px;
+    }
+    
+    .SearchBar{
+        position: relative;
+        width: 20%;
+    }
+    
+    .Buscador{
+        margin-left: 25%;
+        height: 30px;
+    }
+    
+    .IconBusqueda{
+        left: 95%;
+        width: 7%;
+    }
+
+    nav{
+        margin-left: 5%;
+        font-size: 15px;
+    }
+    
+    .menu-horizontal > li > a{
+        padding: 5px 10px;
+    }
+
+
+    .menu-vertical{
+        width: 80px;
+    }
+    
+    .Usuario{
+        width: 150px;
+        padding: 5px;
+        font-family: Georgia;
+    }
+    
+    .Contrasena{
+        width: 150px;
+        padding: 5px;
+        font-family: Georgia;
+    }
+    
+    .Ingresar{
+        height: 30px;
+        width: 150px;
+        font-family: Georgia;
+    }
+
+    .Categorias{
+        margin-left: 1%;
+        font-size: 15px;
+    }
+
+    .menu-categorias > li > a{
+        padding: 7px 12px;
+    }
+
+    .menu-opciones{
+        width: 150px;
+    }
+
+    .Titulo1{
+        font-size: 20px;
+    }
+    
+    .Zelda{
+        height: 200px;
+        width: 450px;
+    }
+
+    .Noticia1Parte1{
+        font-size: 15px;
+    }
+    
+    .Noticia1Parte2{
+        font-size: 15px;
+    }
+    
+    .Noticia1Parte3{
+        font-size: 15px;
+    }
+    
+    .Noticia1Parte4{
+        font-size: 15px;
+    }
+
+    .Titulo2{
+        font-size: 20px;
+    }
+    
+    .DLC{
+        height: 200px;
+        width: 450px;
+    }
+    
+    .Noticia2{
+        font-size: 15px;
+    }
+
+    .Titulo3{
+        font-size: 20px;
+    }
+    
+    .Xbox{
+        height: 200px;
+        width: 450px;;
+    }
+    
+    .Noticia3parte1{
+        font-size: 15px;
+    }
+    
+    .Noticia3parte2{
+        font-size: 15px;
+    }
+
+    .CampoTexto{
+        height: 25px;
+        width: 250px;
+    }
+    
+    .registrarse{
+        font-size: 15px;
+    }
+    
+    .CrearCuenta{
+        height: 25px;
+        width: 90px;
+        font-size: 12px;
+    }
+
+    .NoticiaExtra{
+        height: 250px;
+        width: 400px;
+    }
+    
+    .texto-centrado1{
+        top: 170px;
+        font-size: 18px;
+    }
+    
+    .texto-centrado2{
+        top: 150px;
+        font-size: 18px;
+    }
+
+    .texto-centrado3{
+        top: 170px;
+        font-size: 18px;
+    }
+
+    .texto-centrado4{
+        top: 170px;
+        font-size: 18px;
+    }
+
+    .SeguirRedes{
+        margin-top: 10%;
+        font-size: 18px;
+    }
+
+    .redes-sociales{
+        gap: 7%;
+        margin-top: 6%;
+    }
+
+    .TituloRedSocial{
+        font-size: 15px;
+    }
+    
+    .facebook-icon{
+        height: 22px;
+        width: 22px;
+    }
+    
+    .twitter-icon{
+        height: 23px;
+        width: 23px;
+    }
+    
+    .instagram-icon{
+        height: 23px;
+        width: 23px;
+    }
+    
+    .youtube-icon{
+        height: 23px;
+        width: 23px;
+    }
+
+}
 
 
 
