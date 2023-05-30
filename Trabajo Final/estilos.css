@@ -15,6 +15,7 @@ body{
     "BarraSuperior2 BarraSuperior2 BarraSuperior2 BarraSuperior2"
     "Contenido Contenido Contenido ContenidoExtra"
     "Contenido Contenido Contenido ContenidoExtra"
+    "ExtraCelular ExtraCelular ExtraCelular ExtraCelular"
     ;
 }
 
@@ -524,7 +525,7 @@ h3:hover{
     color: rgb(212, 142, 62);
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
 
     .LogoBlog{
         height: 30px;
@@ -537,26 +538,26 @@ h3:hover{
     
     .SearchBar{
         position: relative;
-        width: 20%;
+        width: 40%;
     }
     
     .Buscador{
-        margin-left: 25%;
+        margin-left: 20%;
         height: 30px;
     }
     
     .IconBusqueda{
-        left: 95%;
+        left: 90%;
         width: 7%;
     }
 
     nav{
-        margin-left: 5%;
+        margin-left: 6%;
         font-size: 15px;
     }
     
     .menu-horizontal > li > a{
-        padding: 5px 10px;
+        padding: 5px 5px;
     }
 
 
@@ -588,11 +589,15 @@ h3:hover{
     }
 
     .menu-categorias > li > a{
-        padding: 7px 12px;
+        padding: 8px 8px;
     }
 
     .menu-opciones{
         width: 150px;
+    }
+
+    .Contenido{
+        border-right: 0px;
     }
 
     .Titulo1{
@@ -654,6 +659,13 @@ h3:hover{
         height: 25px;
         width: 250px;
     }
+
+    .ContenidoExtra{
+        grid-area: ExtraCelular;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
     
     .registrarse{
         font-size: 15px;
@@ -667,7 +679,7 @@ h3:hover{
 
     .NoticiaExtra{
         height: 250px;
-        width: 400px;
+        width: 100%;
     }
     
     .texto-centrado1{
