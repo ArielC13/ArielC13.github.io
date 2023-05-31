@@ -477,7 +477,7 @@ h3:hover{
 .redes-sociales{
     display: flex;
     flex-direction: row;
-    gap: 8%;
+    gap: 6%;
     margin-top: 7%;
 }
 
