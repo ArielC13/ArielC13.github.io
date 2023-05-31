@@ -93,7 +93,7 @@ body{
 
 nav{
 	max-width: 300px;
-    margin-left: 40%;
+    margin-left: 35%;
 	background-color: #333;
 	font-size: 20px;
 	margin-top: 10x;
@@ -152,8 +152,6 @@ nav{
     grid-area: BarraSuperior2;
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    align-items: center;
 }
 
 .Categorias{
@@ -251,27 +249,37 @@ h3:hover{
     margin-bottom: 10px;
 }
 
-.Noticia1Parte1{
+.Noticia1parte1{
     font-size: 20px;
     font-family: "Calibri";
 }
 
-.Noticia1Parte2{
+.Noticia1parte2{
     font-size: 20px;
     font-family: "Calibri";
     color: rgb(38, 38, 235);
+    margin-top: 2%;
 }
 
-.Noticia1Parte3{
+.Noticia1parte3{
     font-size: 20px;
     font-family: "Calibri";
+    margin-top: 2%;
 }
 
-.Noticia1Parte4{
+.Noticia1parte4{
+    font-size: 20px;
+    font-family: "Calibri";
+    margin-top: 2%;
+}
+
+.Noticia1parte5{
     font-size: 20px;
     font-family: "Calibri";
     color: gray;
     margin-left: 50px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .Contenido2{
@@ -279,7 +287,12 @@ h3:hover{
     flex-direction: column;
 }
 
-.Titulo2{
+.Titulo2parte1{
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.Titulo2parte2{
     font-size: 30px;
     font-family: Arial;
 }
@@ -291,9 +304,16 @@ h3:hover{
     margin-bottom: 10px;
 }
 
-.Noticia2{
+.Noticia2parte1{
     font-size: 20px;
     font-family: "Calibri";
+}
+
+.Noticia2parte2{
+    font-size: 20px;
+    font-family: "Calibri";
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .Contenido3{
@@ -301,7 +321,12 @@ h3:hover{
     flex-direction: column;
 }
 
-.Titulo3{
+.Titulo3parte1{
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.Titulo3parte2{
     font-size: 30px;
     font-family: Arial;
 }
@@ -321,8 +346,15 @@ h3:hover{
 .Noticia3parte2{
     font-size: 20px;
     font-family: "Calibri";
+    margin-top: 2%;
+}
+
+.Noticia3parte3{
+    font-size: 20px;
+    font-family: "Calibri";
     margin-left: 30px;
     font-style: italic;
+    margin-top: 2%;
 }
 
 .ContenidoExtra{
@@ -525,15 +557,15 @@ h3:hover{
     color: rgb(212, 142, 62);
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
 
     .LogoBlog{
-        height: 30px;
+        height: 25px;
         width: 20%;
     }
     
     .NombrePagina{
-        font-size: 20px;
+        font-size: 17px;
     }
     
     .SearchBar{
@@ -542,17 +574,17 @@ h3:hover{
     }
     
     .Buscador{
-        margin-left: 20%;
+        margin-left: 13%;
         height: 30px;
     }
     
     .IconBusqueda{
-        left: 90%;
+        left: 82%;
         width: 7%;
     }
 
     nav{
-        margin-left: 6%;
+        margin-left: 5%;
         font-size: 15px;
     }
     
@@ -566,25 +598,25 @@ h3:hover{
     }
     
     .Usuario{
-        width: 150px;
+        width: 125px;
         padding: 5px;
         font-family: Georgia;
     }
     
     .Contrasena{
-        width: 150px;
+        width: 125px;
         padding: 5px;
         font-family: Georgia;
     }
     
     .Ingresar{
         height: 30px;
-        width: 150px;
+        width: 125px;
         font-family: Georgia;
     }
 
     .Categorias{
-        margin-left: 1%;
+        margin-left: 20%;
         font-size: 15px;
     }
 
@@ -609,23 +641,35 @@ h3:hover{
         width: 450px;
     }
 
-    .Noticia1Parte1{
+    .Noticia1parte1{
         font-size: 15px;
     }
     
-    .Noticia1Parte2{
+    .Noticia1parte2{
         font-size: 15px;
+        margin-top: 3%;
     }
     
-    .Noticia1Parte3{
+    .Noticia1parte3{
         font-size: 15px;
+        margin-top: 3%;
     }
     
-    .Noticia1Parte4{
+    .Noticia1parte4{
         font-size: 15px;
+        margin-top: 3%;
     }
 
-    .Titulo2{
+    .Noticia1parte5{
+        font-size: 15px;
+        margin-top: 3%;
+    }
+
+    .Titulo2parte1{
+        font-size: 20px;
+    }
+
+    .Titulo2parte2{
         font-size: 20px;
     }
     
@@ -634,11 +678,21 @@ h3:hover{
         width: 450px;
     }
     
-    .Noticia2{
+    .Noticia2parte1{
         font-size: 15px;
     }
 
-    .Titulo3{
+    .Noticia2parte2{
+        font-size: 15px;
+        margin-top: 3%;
+    }
+
+
+    .Titulo3parte1{
+        font-size: 20px;
+    }
+
+    .Titulo3parte2{
         font-size: 20px;
     }
     
@@ -653,6 +707,12 @@ h3:hover{
     
     .Noticia3parte2{
         font-size: 15px;
+        margin-top: 3%;
+    }
+
+    .Noticia3parte3{
+        font-size: 15px;
+        margin-top: 3%;
     }
 
     .CampoTexto{
