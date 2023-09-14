@@ -82,7 +82,7 @@ app.get('/productos',middlewareAutenticacion ,(req, res, next) => { // devolver 
     let nombreUsuario = req.cookies.username;
     // mandarle la variable con todos los productos.
     //res.send( fakeDB.nombreUsuario.productos );
-    res.send( fakeDB[ nombreUsuario ].productos );
+    res.send( fakeDB.nombreUsuario.productos );
 })
 
 
@@ -90,9 +90,17 @@ app.post('/producto',(req,res)=>{   // POST /producto  -> crear producto nuevo
     console.log('entró a POST /producto', req.body );
 
     let nombreUsuario = req.cookies.username;
-    fakeDB[nombreUsuario].productos.push(req.body);
+    fakeDB.nombreUsuario.productos.push(req.body);
     //productos.push( req.body );
     res.send(`Producto creado en el usuario ${nombreUsuario}`);
+})
+
+app.delete('/producto',middlewareAutenticacion,(req, res, next)=>{
+    console.log('entró a delete /producto', req.body );
+
+    let Usuario = req.cookies.username;
+    fakeDB.Usuario.productos.splice(req.params.indice, 1);
+    res.send(`Producto eliminado del usuario ${Usuario}`);
 })
 
 ////////////////////////////////////////////`
