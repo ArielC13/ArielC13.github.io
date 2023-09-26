@@ -114,7 +114,6 @@ app.post('/carrito', function(req,res){
 })
 
 app.get('/carrito',function(req,res){
-    fakeDB[req.body.username].carrito.push(req.body.carrito)
     listaCarrito = req.body.carrito
     let productosRepetidos = [];
     /*let idProductos = req.body.carrito.id;
@@ -145,10 +144,11 @@ app.get('/carrito',function(req,res){
 })
 
 app.delete('/carrito/:indice',(req,res)=>{
-    console.log('Entro a carrito', req.body);
+    console.log('Entro a DELETE carrito', req.body);
 
-    let nombreUsuario = req.body.username;
-    fakeDB.nombreUsuario.carrito.splice(req.params.indice, 1);
+    let nombreUsuario = req.cookies.username;
+    fakeDB[nombreUsuario].carrito.splice(req.params.indice, 1);
+    console.log(fakeDB[nombreUsuario].carrito);
     res.send(`Producto eliminado del carrito de: ${nombreUsuario}`);
 })
 
