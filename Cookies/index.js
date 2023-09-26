@@ -14,6 +14,7 @@ fakeDB = {
         		nombre: 'producto bruno', precio: 12331.85, stock:58
           }
         ],
+        carrito: [],
         password: 'Contraseña1234'
     },
     ariel123:{
@@ -22,6 +23,9 @@ fakeDB = {
         		nombre: 'producto de ariel', precio: 12331.85, stock:58
           }
         ],
+        carrito: [{
+            id: '11011', producto: 'PS4', precio: 600000
+        }],
         password: 'Contraseña1313'
     },
     fatima123:{
@@ -30,6 +34,7 @@ fakeDB = {
         		nombre: 'producto fatima123', precio: 12331.85, stock:58
           }
         ],
+        carrito: [],
         password: 'Contraseña555'
     },
     magali123:{
@@ -38,14 +43,15 @@ fakeDB = {
         		nombre: 'producto de magali123',precio: 12331.85, stock:58
           }
         ],
+        carrito: [],
         password: 'Contraseña1111'
-    },
-    juan123: {
+    }
+    /*juan123: {
         productos: [
 
         ],
         password: ""
-    }
+    }*/
 }
 
 app.get('/', (req, res) => { // devolver todos los productos
@@ -86,7 +92,7 @@ function middlewareAutenticacion(req, res, next){
     }
 }
 
-app.post('/user', function(req,res){
+/*app.post('/user', function(req,res){
     let nuevaContrasena = req.body.password
     let nombreUsuario = req.body.username
     let nuevosProductos = req.body.productos
@@ -98,6 +104,52 @@ app.post('/user', function(req,res){
     console.log(fakeDB[nombreUsuario]);
     res.send(fakeDB);
 
+})
+*/
+
+app.post('/carrito', function(req,res){
+    //let nuevosProductos = req.body.productos
+    fakeDB[req.body.username].carrito.push(req.body.carrito)
+    res.send('Productos enviados');
+})
+
+app.get('/carrito',function(req,res){
+    fakeDB[req.body.username].carrito.push(req.body.carrito)
+    listaCarrito = req.body.carrito
+    let productosRepetidos = [];
+    /*let idProductos = req.body.carrito.id;
+    listaCarrito.forEach(idProductos){
+        if(listaCarrito.indexOf(idProductos)!=-1){
+                productosRepetidos.push(req.body.carrito);
+        }
+    }
+    console.log(productosRepetidos);
+    res.send(productosRepetidos);
+    */
+    //let productosRepetidos = [];
+    let Contador = 0;
+    for (let i = 0; i < fakeDB[req.body.username].carrito.length; i++){
+        if(listaCarrito.id == fakeDB[req.body.username].carrito.id){
+            Contador+= 1
+            productosRepetidos.push(req.body.carrito)
+        }
+        else{
+            productosRepetidos.push(req.body.carrito)
+        }
+    }
+    console.log(`Los productos del carrito de ${req.body.username} son: ${JSON.stringify(productosRepetidos)} y la cantidad es ${Contador}`)
+    res.send(`Los productos del carrito de ${req.body.username} son: ${JSON.stringify(productosRepetidos)} y la cantidad es ${Contador}`)
+    //console.log(`Los productos del carrito de ${req.body.username} son: ${JSON.stringify(fakeDB[req.body.username].carrito)}`);
+    //res.send(`Los productos del carrito de ${req.body.username} son: ${JSON.stringify(fakeDB[req.body.username].carrito)}`);
+
+})
+
+app.delete('/carrito/:indice',(req,res)=>{
+    console.log('Entro a carrito', req.body);
+
+    let nombreUsuario = req.body.username;
+    fakeDB.nombreUsuario.carrito.splice(req.params.indice, 1);
+    res.send(`Producto eliminado del carrito de: ${nombreUsuario}`);
 })
 
 // endpoint que necesita autenticación
