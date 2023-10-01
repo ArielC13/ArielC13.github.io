@@ -23,9 +23,7 @@ fakeDB = {
         		nombre: 'producto de ariel', precio: 12331.85, stock:58
           }
         ],
-        carrito: [{
-            id: '11011', producto: 'PS4', precio: 600000
-        }],
+        carrito: [],
         password: 'Contraseña1313'
     },
     fatima123:{
@@ -114,30 +112,28 @@ app.post('/carrito', function(req,res){
 })
 
 app.get('/carrito',function(req,res){
-    listaCarrito = req.body.carrito
-    let productosRepetidos = [];
-    /*let idProductos = req.body.carrito.id;
-    listaCarrito.forEach(idProductos){
-        if(listaCarrito.indexOf(idProductos)!=-1){
-                productosRepetidos.push(req.body.carrito);
-        }
+    function buscarRepetidos(miLista = [], productoID){
+        listaRepetidos = []
+        let contador = 0;
+        var unicos = 0;
+        miLista.forEach(function(numerosLista){
+            if(productoID == numerosLista){
+                contador++
+                listaRepetidos.push(numerosLista)
+                unicos = listaRepetidos.filter(function(item, index, array) {
+                    return array.indexOf(item) === index;
+                  })
+            }
+            else{
+                
+            }
+        })
+        return (unicos) + ' : ' + (contador)
     }
-    console.log(productosRepetidos);
-    res.send(productosRepetidos);
-    */
-    //let productosRepetidos = [];
-    let Contador = 0;
-    for (let i = 0; i < fakeDB[req.body.username].carrito.length; i++){
-        if(listaCarrito.id == fakeDB[req.body.username].carrito.id){
-            Contador+= 1
-            productosRepetidos.push(req.body.carrito)
-        }
-        else{
-            productosRepetidos.push(req.body.carrito)
-        }
-    }
-    console.log(`Los productos del carrito de ${req.body.username} son: ${JSON.stringify(productosRepetidos)} y la cantidad es ${Contador}`)
-    res.send(`Los productos del carrito de ${req.body.username} son: ${JSON.stringify(productosRepetidos)} y la cantidad es ${Contador}`)
+    console.log(buscarRepetidos(fakeDB[req.body.username].carrito, 11011));
+    res.send(buscarRepetidos(fakeDB[req.body.username].carrito, 11011));
+    //console.log(`Los productos del carrito de ${req.body.username} son: ${JSON.stringify(productosRepetidos)} y la cantidad es ${Contador}`)
+    //res.send(`Los productos del carrito de ${req.body.username} son: ${JSON.stringify(productosRepetidos)} y la cantidad es ${Contador}`)
     //console.log(`Los productos del carrito de ${req.body.username} son: ${JSON.stringify(fakeDB[req.body.username].carrito)}`);
     //res.send(`Los productos del carrito de ${req.body.username} son: ${JSON.stringify(fakeDB[req.body.username].carrito)}`);
 
