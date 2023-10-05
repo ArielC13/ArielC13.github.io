@@ -1,9 +1,7 @@
 function SacarRepetidos(miLista = []){
-  contador = 0
   listaSinRepetidos = []
   miLista.forEach(function(numerosLista){
       if(listaSinRepetidos.includes(numerosLista) == false){
-          contador++
           listaSinRepetidos.push(numerosLista)
       }
       else {
@@ -26,13 +24,13 @@ function contarRepetidos(miLista = [], numero){
 }
 console.log(contarRepetidos([1,2,3,4,5,5,5,6,5,2,1,6], 5));
 
-function repetidos(miLista = []){
-  listaConRepetidos = []
-  miLista.forEach(function(numerosLista){
-    if(listaConRepetidos.includes(listaSinRepetidos == true)){
-      listaConRepetidos.push(numerosLista)
-    }
+function agrupar(carrito = []){
+  resultado = {}
+  listaSinRepetidos.forEach(function(numerosLista){
+    let cantidad = contarRepetidos(carrito, numerosLista)
+    resultado[numerosLista.toString()] = cantidad
   })
-  return listaConRepetidos
+  return resultado
 }
-console.log(repetidos([1,2,3,4,5,6,7,7,8,7,9,1,2]));
+console.log(agrupar([1,2,3,4,5,6,7,7,8,7,9,1,2]));
+
