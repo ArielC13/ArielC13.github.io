@@ -32,7 +32,7 @@ fakeDB = {
         		nombre: 'producto fatima123', precio: 12331.85, stock:58
           }
         ],
-        carrito: [11011, 11020,11023],
+        carrito: [],
         password: 'Contraseña555'
     },
     magali123:{
@@ -107,7 +107,7 @@ function middlewareAutenticacion(req, res, next){
 
 app.post('/carrito', function(req,res){
     //let nuevosProductos = req.body.productos
-    fakeDB[req.body.username].carrito.push(req.body.carrito)
+    fakeDB[req.cookies.username].carrito.push(req.body.carrito)
     res.send('Productos enviados');
 })
 
