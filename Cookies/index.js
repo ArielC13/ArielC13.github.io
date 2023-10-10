@@ -32,7 +32,7 @@ fakeDB = {
         		nombre: 'producto fatima123', precio: 12331.85, stock:58
           }
         ],
-        carrito: [],
+        carrito: [11011, 11020,11023],
         password: 'Contraseña555'
     },
     magali123:{
@@ -111,27 +111,45 @@ app.post('/carrito', function(req,res){
     res.send('Productos enviados');
 })
 
-app.get('/carrito',function(req,res){
-    function buscarRepetidos(miLista = [], productoID){
-        listaRepetidos = []
-        let contador = 0;
-        var unicos = 0;
-        miLista.forEach(function(numerosLista){
-            if(productoID == numerosLista){
-                contador++
-                listaRepetidos.push(numerosLista)
-                unicos = listaRepetidos.filter(function(item, index, array) {
-                    return array.indexOf(item) === index;
-                  })
-            }
-            else{
-                
-            }
+function SacarRepetidos(miLista = []){
+    let listaSinRepetidos = []
+    miLista.forEach(function(numerosLista){
+        if(listaSinRepetidos.includes(numerosLista) == false){
+            listaSinRepetidos.push(numerosLista)
+        }
+        else {
+  
+        }
+    })
+    return listaSinRepetidos
+  }
+  
+  
+  function contarRepetidos(miLista = [], numero){
+    contador = 0;
+    miLista.forEach(function(numerosLista){
+      if(numero == numerosLista){
+        contador++
+      }
+    })
+    return contador
+  }
+  
+
+app.get('/carrito',middlewareAutenticacion,function(req,res,next){
+
+    function agrupar(carrito = []){
+        let variableSinRepetidos = SacarRepetidos(fakeDB[req.cookies.username].carrito)
+        resultado = {}
+        variableSinRepetidos.forEach(function(numerosLista){
+          let cantidad = contarRepetidos(carrito, numerosLista)
+          resultado[numerosLista.toString()] = cantidad
         })
-        return (unicos) + ' : ' + (contador)
-    }
-    console.log(buscarRepetidos(fakeDB[req.body.username].carrito, 11011));
-    res.send(buscarRepetidos(fakeDB[req.body.username].carrito, 11011));
+        return resultado
+      }
+      console.log(agrupar(fakeDB[req.cookies.username].carrito));
+      res.send(agrupar(fakeDB[req.cookies.username].carrito));
+    
     //console.log(`Los productos del carrito de ${req.body.username} son: ${JSON.stringify(productosRepetidos)} y la cantidad es ${Contador}`)
     //res.send(`Los productos del carrito de ${req.body.username} son: ${JSON.stringify(productosRepetidos)} y la cantidad es ${Contador}`)
     //console.log(`Los productos del carrito de ${req.body.username} son: ${JSON.stringify(fakeDB[req.body.username].carrito)}`);
