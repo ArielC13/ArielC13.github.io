@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=}, initial-scale=1.0">
+    <title>Prueba de HTML</title>
+</head>
+<body>
+    <div>
+        <h2>id</h2>
+        <h4>Cantidad</h4>
+        <p></p>
+    </div>
+</body>
+<script>
+    app.get('/test', function(req,res){
+        res.sendFile('index.html', {root: __dirname})
+    })
+
+    fetch("localhost:3000/carrito",{
+        method: 'POST',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        }
+    }).then((r) => {
+        return r.json();
+    }).then((contenido) =>{
+        console.log(contenido);
+    })
+
+    let contenido = {
+        producto1: 11011,
+        producto2: 11012,
+        producto3: 11013
+    }
+    for ([id,cant] of Object.entries(contenido)){
+        console.log(id,cant)
+        let miDiv = document.createElement(`div`)
+        miDiv.setAttribute('style', 'border: 1px solid black')
+        miDiv.innerHTML =  `<h2>${id}</h2><h4>cantidad</h4><p>${cant}</p>`
+        document.body.appendChild(miDiv)
+    }
+</script>
+</html>
