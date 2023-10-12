@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div>
+        <h4>Usuario</h4>
+        <input type = "text" id = "user">
+        <h4>Contraseña</h4>
+        <input type = "text" id = "pass">
+        <br><br>
+        <button id = "boton">Entrar</button>
+    </div>
+</body>
+<script>
+    document.querySelector('#boton').addEventListener('click', () =>{
+        var obtenerUsername = document.getElementById("user").value;
+        var obtenerPassword = document.getElementById("pass").value;
+        fetch("/login",{
+        method: 'POST',
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        body:JSON.stringify({username: obtenerUsername ,password: obtenerPassword})
+    }).then((respuesta) =>{
+        console.log(respuesta)
+    })
+    
+})
+    
+</script>
+</html>

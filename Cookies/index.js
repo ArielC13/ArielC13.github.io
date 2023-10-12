@@ -69,6 +69,7 @@ app.get('/read_cookie',function(req, res){
 
 app.post('/login',function(req, res){
     console.log('Usuario recibido:', req.body.username);
+    console.log(Object.keys(fakeDB))
     if(fakeDB[req.body.username].password == req.body.password){
         res.cookie('username' , req.body.username);
         res.send('Cookie is set');
@@ -180,6 +181,16 @@ app.get('/productos',middlewareAutenticacion ,(req, res, next) => { // devolver 
     //res.send( fakeDB.nombreUsuario.productos );
     res.send( fakeDB[nombreUsuario].productos);
 })
+
+app.get('/test', function(req,res){
+    res.sendFile('index.html', {root: __dirname})
+});
+
+app.get('/login', function(req,res){
+    res.sendFile('login.html', {root: __dirname})
+});
+
+
 
 
 app.post('/producto',middlewareAutenticacion ,(req,res, next)=>{   // POST /producto  -> crear producto nuevo
