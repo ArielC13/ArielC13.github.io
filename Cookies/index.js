@@ -68,8 +68,7 @@ app.get('/read_cookie',function(req, res){
 });
 
 app.post('/login',function(req, res){
-    console.log('Usuario recibido:', req.body.username);
-    console.log(Object.keys(fakeDB))
+    /*console.log('Usuario recibido:', req.body.username);
     if(fakeDB[req.body.username].password == req.body.password){
         res.cookie('username' , req.body.username);
         res.send('Cookie is set');
@@ -78,6 +77,23 @@ app.post('/login',function(req, res){
         console.log('Error de autenticación')
         res.send('El usuario o la contraseña son incorrectos')
     }
+*/
+    let listaUsernames = Object.keys(fakeDB)
+    let Username = req.body.username
+    let usuarioAceptado = [];
+    console.log(listaUsernames)
+    listaUsernames.forEach(function(usuarios){
+        if(usuarios == Username && fakeDB[req.body.username].password == req.body.password){
+            usuarioAceptado.push(usuarios)
+            res.cookie('username' , req.cookies.username);
+            res.send('Cookie is set');
+        }
+        else{
+            console.log('Error de autenticación')
+            res.send('El usuario o la contraseña son incorrectos')
+        }
+    })
+    return usuarioAceptado
 })
 
 function middlewareAutenticacion(req, res, next){
@@ -182,17 +198,6 @@ app.get('/productos',middlewareAutenticacion ,(req, res, next) => { // devolver 
     res.send( fakeDB[nombreUsuario].productos);
 })
 
-app.get('/test', function(req,res){
-    res.sendFile('index.html', {root: __dirname})
-});
-
-app.get('/login', function(req,res){
-    res.sendFile('login.html', {root: __dirname})
-});
-
-
-
-
 app.post('/producto',middlewareAutenticacion ,(req,res, next)=>{   // POST /producto  -> crear producto nuevo
     console.log('entró a POST /producto', req.body );
 
@@ -211,6 +216,14 @@ app.delete('/producto/:indice',middlewareAutenticacion ,(req,res, next)=>{   // 
     
     res.send(`Producto creado en el usuario ${nombreUsuario}`);
 })
+
+app.get('/test', function(req,res){
+    res.sendFile('index.html', {root: __dirname})
+});
+
+app.get('/login', function(req,res){
+    res.sendFile('login.html', {root: __dirname})
+});
 
 ////////////////////////////////////////////`
 app.listen(port, () => {
