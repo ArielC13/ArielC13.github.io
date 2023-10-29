@@ -1,0 +1,16 @@
+1) select materias.nombre as asignatura , docentes.nombre, docentes.apellido from materias join docentes on materias.id_docente = docentes.id
+2) select DISTINCT alumnos.nombre from alumnos;
+3) select COUNT(alumnos.apellido) as cantidad_repetidos, apellido from alumnos group by apellido;
+4) select COUNT(materias.nombre) as materias_dadas, docentes.nombre, docentes.apellido from materias join docentes on materias.id_docente = docentes.id GROUP BY docentes.nombre,docentes.apellido
+5) select sum(suma.cantidad_alumnos) from (select COUNT(alumnos) as cantidad_alumnos, materias.nombre as materias from alumnos
+join alumnos_x_materias on alumnos.id = alumnos_x_materias.id_alumno
+join materias on alumnos_x_materias.id_materia = materias.id
+GROUP BY materias.nombre) as suma
+6) select count(alumnos) as cantidad_alumnos, alumnos.curso from alumnos GROUP BY alumnos.curso;
+7) select cantidad_examenes, contar_examenes.nombre, contar_examenes.apellido from
+(select count(examenes) as cantidad_examenes, alumnos.nombre, alumnos.apellido from examenes join alumnos on examenes.id_alumno = alumnos.id
+GROUP BY alumnos.nombre, alumnos.apellido) as contar_examenes ORDER BY cantidad_examenes DESC;
+8) select promedio, promedio_final.nombre, promedio_final.apellido from
+(select avg(examenes.nota) as promedio, alumnos.nombre, alumnos.apellido from examenes join alumnos on examenes.id_alumno = alumnos.id
+GROUP BY alumnos.nombre, alumnos.apellido) as promedio_final ORDER BY promedio DESC;
+9) select avg(examenes.nota) as promedio_curso, alumnos.curso from examenes join alumnos on examenes.id_alumno = alumnos.id GROUP BY alumnos.curso;
