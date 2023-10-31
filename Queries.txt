@@ -13,6 +13,7 @@ join alumnos_x_materias on alumnos.id = alumnos_x_materias.id_alumno
 join materias on alumnos_x_materias.id_materia = materias.id
 GROUP BY materias.nombre) as suma
 --6)
+
 select count(alumnos) as cantidad_alumnos, alumnos.curso from alumnos GROUP BY alumnos.curso;
 --7)
 select cantidad_examenes, contar_examenes.nombre, contar_examenes.apellido from
@@ -20,10 +21,32 @@ select cantidad_examenes, contar_examenes.nombre, contar_examenes.apellido from
 from examenes join alumnos on examenes.id_alumno = alumnos.id
 GROUP BY alumnos.nombre, alumnos.apellido) as contar_examenes ORDER BY cantidad_examenes DESC;
 --8)
-select promedio, promedio_final.nombre, promedio_final.apellido from
+select promedio, concat (promedio_final.nombre,', ',promedio_final.apellido) as nombre_completo from
 (select avg(examenes.nota) as promedio, alumnos.nombre, alumnos.apellido
 from examenes join alumnos on examenes.id_alumno = alumnos.id
 GROUP BY alumnos.nombre, alumnos.apellido) as promedio_final ORDER BY promedio DESC;
 --9)
 select avg(examenes.nota) as promedio_curso, alumnos.curso
 from examenes join alumnos on examenes.id_alumno = alumnos.id GROUP BY alumnos.curso;
+
+--10)
+
+select count(examenes) as contar_examenes, docentes.nombre, docentes.apellido
+from examenes join materias on examenes.id_materia = materias.id
+join docentes on materias.id_docente = docentes.id GROUP BY docentes.id
+
+--11)
+
+select nota as nota_aprobados, alumnos.curso from examenes join alumnos on examenes.id_alumno = alumnos.id
+GROUP BY alumnos.curso, nota having nota >=6;
+
+select count(alumnos.id) as examenes, curso
+from alumnos join examenes on alumnos.id = examenes.id_alumno where examenes.nota >=6 GROUP BY alumnos.curso;
+
+select count(alumnos.id) as examenes, curso
+from alumnos join examenes on alumnos.id = examenes.id_alumno GROUP BY alumnos.curso;
+
+with examenes_curso as (select count(alumnos.id) as examenes, curso from alumnos join examenes on alumnos.id = examenes.id_alumno GROUP BY alumnos.curso),
+lista_aprobados as (select count(alumnos.id) as examenes_aprobados, curso from alumnos join examenes on alumnos.id = examenes.id_alumno where examenes.nota >=6 GROUP BY alumnos.curso)
+
+select (examenes_aprobados*100/examenes) as tasa_aprobacion, lista_aprobados.curso from examenes_curso join lista_aprobados on examenes_curso.curso = lista_aprobados.curso;
