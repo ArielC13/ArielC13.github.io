@@ -79,21 +79,20 @@ app.post('/login',function(req, res){
     }
 */
     let listaUsernames = Object.keys(fakeDB)
-    let Username = req.body.username
-    let usuarioAceptado = [];
+    let Username = req.cookies.username
+    let Password = req.cookies.password
     console.log(listaUsernames)
-    listaUsernames.forEach(function(usuarios){
-        if(usuarios == Username && fakeDB[req.body.username].password == req.body.password){
-            usuarioAceptado.push(usuarios)
-            res.cookie('username' , req.cookies.username);
+    //listaUsernames.forEach(function(usuarios){
+    if(fakeDB[req.cookies.username] == Username && fakeDB[req.cookies.username].password == Password){
+            res.cookie('username' , req.cookies.username)
+            res.cookie('password', req.cookies.password)
             res.send('Cookie is set');
-        }
-        else{
-            console.log('Error de autenticación')
-            res.send('El usuario o la contraseña son incorrectos')
-        }
-    })
-    return usuarioAceptado
+    }
+    else{
+        console.log('Error de autenticación')
+        res.send('El usuario o la contraseña son incorrectos');
+    }
+    //})
 })
 
 function middlewareAutenticacion(req, res, next){
@@ -166,12 +165,6 @@ app.get('/carrito',middlewareAutenticacion,function(req,res,next){
       }
       console.log(agrupar(fakeDB[req.cookies.username].carrito));
       res.send(agrupar(fakeDB[req.cookies.username].carrito));
-    
-    //console.log(`Los productos del carrito de ${req.body.username} son: ${JSON.stringify(productosRepetidos)} y la cantidad es ${Contador}`)
-    //res.send(`Los productos del carrito de ${req.body.username} son: ${JSON.stringify(productosRepetidos)} y la cantidad es ${Contador}`)
-    //console.log(`Los productos del carrito de ${req.body.username} son: ${JSON.stringify(fakeDB[req.body.username].carrito)}`);
-    //res.send(`Los productos del carrito de ${req.body.username} son: ${JSON.stringify(fakeDB[req.body.username].carrito)}`);
-
 })
 
 app.delete('/carrito/:indice',(req,res)=>{
