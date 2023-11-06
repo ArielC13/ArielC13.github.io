@@ -41,8 +41,9 @@ GROUP BY nombre_completo) as compras_cliente ORDER BY chango_compra DESC;
 --7) Mostrar cantidad de empleados por cada sector de cada sucursal
 
 select cantidad_empleados, empleados_totales.sector, empleados_totales.sucursal
-from (select count(empleados) as cantidad_empleados, empleados.sector, supermercados.sucursal
-from empleados join supermercados on empleados.id = supermercados.id_empleado
+from (select count(empleados) as cantidad_empleados, empleados.sector, supermercados.sucursal from empleados
+join empleados_x_supermercados on empleados.id = empleados_x_supermercados.id_empleado
+join supermercados on empleados_x_supermercados.id_supermercado = supermercados.id
 GROUP BY empleados.sector, supermercados.sucursal) as empleados_totales
 ORDER BY empleados_totales.sucursal;
 

@@ -23,9 +23,7 @@ CREATE TABLE supermercados (
     id int NOT NULL PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
     nombre VARCHAR,
     direccion VARCHAR,
-    sucursal INT,
-    id_empleado INT,
-    Foreign Key (id_empleado) REFERENCES empleados(id)
+    sucursal INT
 );
 
 CREATE TABLE productos_x_supermercados(
@@ -42,4 +40,11 @@ CREATE TABLE ventas(
     total INT,
     Foreign Key (id_producto) REFERENCES productos(id),
     Foreign Key (id_cliente) REFERENCES clientes(id)
+);
+
+CREATE TABLE empleados_x_supermercados(
+    id_empleado INT,
+    id_supermercado INT,
+    Foreign Key (id_empleado) REFERENCES empleados(id),
+    Foreign Key (id_supermercado) REFERENCES supermercados(id)
 );
