@@ -1,0 +1,3512 @@
+-- Empleados--
+
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Valentine','Thornton','supervisor',43),
+  ('Hayes','Hickman','limpieza',48),
+  ('Scott','Santos','cajero',34),
+  ('Gareth','Hampton','supervisor',44),
+  ('Jordan','Gamble','limpieza',45),
+  ('Dana','Delaney','repositor',22),
+  ('Murphy','Pena','limpieza',27),
+  ('Merritt','Mcdaniel','supervisor',49),
+  ('Blake','Buckley','repositor',32),
+  ('Daryl','Figueroa','cajero',21);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Noble','Hutchinson','cajero',39),
+  ('Damian','Ellison','limpieza',49),
+  ('Idola','Levy','supervisor',29),
+  ('Zenaida','Benton','limpieza',22),
+  ('Victoria','Norton','cajero',33),
+  ('Uriel','Moody','supervisor',31),
+  ('Melanie','Craft','supervisor',48),
+  ('Serena','Cervantes','cajero',36),
+  ('Nathaniel','Pacheco','repositor',33),
+  ('Stacey','Mckinney','cajero',28);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Galvin','Hopper','supervisor',29),
+  ('Nina','Rollins','cajero',38),
+  ('Delilah','Burnett','repositor',34),
+  ('Ginger','Lambert','supervisor',20),
+  ('Owen','Goff','supervisor',47),
+  ('Marny','Ortiz','cajero',48),
+  ('Amanda','Franks','supervisor',43),
+  ('Liberty','Huffman','cajero',37),
+  ('Madison','Branch','supervisor',39),
+  ('Vincent','Meyer','repositor',47);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Logan','Jacobs','supervisor',29),
+  ('Allegra','Drake','cajero',35),
+  ('Mari','Marshall','limpieza',45),
+  ('Lana','Mercado','limpieza',28),
+  ('Keely','Horne','cajero',32),
+  ('Lenore','Clements','cajero',22),
+  ('Ruby','Ratliff','repositor',37),
+  ('Libby','Chan','supervisor',20),
+  ('Noah','Kinney','cajero',41),
+  ('Holmes','Pacheco','limpieza',42);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Quon','Casey','repositor',50),
+  ('Clarke','Dean','supervisor',45),
+  ('Jordan','Silva','repositor',40),
+  ('Irene','James','supervisor',32),
+  ('Marah','Hayes','limpieza',31),
+  ('Xantha','Church','repositor',47),
+  ('Rachel','Leonard','limpieza',44),
+  ('Wade','Lee','repositor',40),
+  ('Ulla','Valencia','cajero',37),
+  ('Joelle','Molina','supervisor',36);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Philip','Zamora','limpieza',44),
+  ('Oprah','Lester','repositor',21),
+  ('Ishmael','Clarke','repositor',37),
+  ('Anjolie','Bruce','repositor',45),
+  ('Elliott','Harrison','cajero',27),
+  ('Kelsie','Howard','supervisor',23),
+  ('Baker','Baird','cajero',25),
+  ('Grady','Briggs','cajero',46),
+  ('Jakeem','Roberson','cajero',29),
+  ('Connor','Frost','limpieza',30);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Caryn','Kaufman','supervisor',37),
+  ('Irma','Horn','supervisor',46),
+  ('Ulysses','Malone','supervisor',28),
+  ('Remedios','Dalton','repositor',38),
+  ('Quon','Clark','cajero',22),
+  ('Brennan','Pope','repositor',34),
+  ('Nell','Albert','limpieza',33),
+  ('Ivana','Williamson','cajero',34),
+  ('Steven','Strickland','supervisor',40),
+  ('Tucker','Stevens','cajero',31);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Garrison','Garrison','supervisor',47),
+  ('Joel','Hickman','limpieza',48),
+  ('Brynne','Blackwell','limpieza',32),
+  ('Cody','Dillon','limpieza',31),
+  ('Quynn','Buck','cajero',38),
+  ('Ashely','Acosta','limpieza',20),
+  ('Walker','Richmond','cajero',30),
+  ('Isadora','Hudson','cajero',38),
+  ('Brady','Bowers','limpieza',39),
+  ('Nichole','Spence','limpieza',42);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Yeo','Gallagher','supervisor',46),
+  ('Neil','Huber','supervisor',23),
+  ('Shelly','Rivas','repositor',27),
+  ('Melinda','Frank','cajero',33),
+  ('Kiona','Collier','repositor',46),
+  ('Kelly','Terry','cajero',45),
+  ('Gregory','Long','cajero',23),
+  ('Cheryl','Woods','cajero',21),
+  ('Samson','Barnes','supervisor',47),
+  ('Jordan','Leonard','supervisor',31);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Nora','Mcfarland','repositor',33),
+  ('Jessamine','Buckner','limpieza',45),
+  ('Keaton','Stout','limpieza',39),
+  ('Grace','Bates','cajero',43),
+  ('Rogan','Arnold','limpieza',32),
+  ('Griffith','Forbes','cajero',38),
+  ('Gavin','Guthrie','repositor',46),
+  ('Trevor','Acevedo','supervisor',48),
+  ('Carter','O''Neill','repositor',41),
+  ('Ishmael','Daugherty','cajero',40);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Julie','Hood','repositor',29),
+  ('Kelsey','Matthews','supervisor',50),
+  ('Scarlet','Mann','limpieza',34),
+  ('Ahmed','Reilly','limpieza',49),
+  ('Brynn','Park','supervisor',26),
+  ('Kay','White','supervisor',31),
+  ('Coby','Noel','supervisor',44),
+  ('Dennis','Howell','cajero',28),
+  ('Dean','Harding','cajero',43),
+  ('Avye','Ewing','supervisor',44);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Fitzgerald','Salazar','repositor',50),
+  ('Cameron','Singleton','limpieza',39),
+  ('Yoshi','Lynch','cajero',28),
+  ('Cameron','Duncan','supervisor',39),
+  ('Xenos','Miranda','repositor',36),
+  ('Melvin','Villarreal','cajero',36),
+  ('Lana','Cruz','cajero',34),
+  ('Kay','Noble','cajero',29),
+  ('Phelan','Sanford','limpieza',32),
+  ('Brody','Levine','limpieza',22);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Solomon','Mcbride','cajero',26),
+  ('Alexis','Bonner','limpieza',36),
+  ('Athena','Hahn','limpieza',31),
+  ('Miranda','Carpenter','limpieza',21),
+  ('Nita','Gonzalez','limpieza',23),
+  ('Melinda','Saunders','limpieza',22),
+  ('Jescie','Cummings','cajero',35),
+  ('Wendy','Vasquez','repositor',37),
+  ('Gretchen','Ayers','cajero',26),
+  ('Paula','Ramos','limpieza',28);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Hermione','Miles','repositor',29),
+  ('Oren','Jennings','repositor',27),
+  ('Vladimir','Thornton','repositor',37),
+  ('Cailin','Dominguez','repositor',31),
+  ('Shannon','Shepard','repositor',48),
+  ('Edward','Huff','cajero',31),
+  ('Dante','Fox','repositor',24),
+  ('Eve','Winters','supervisor',44),
+  ('Raja','Mendoza','repositor',32),
+  ('Jerry','Middleton','limpieza',33);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Ella','Joseph','supervisor',38),
+  ('Zachery','O''connor','supervisor',26),
+  ('Barry','Leblanc','repositor',34),
+  ('Abdul','Levine','repositor',41),
+  ('Ann','Baxter','limpieza',46),
+  ('Mona','Sears','cajero',31),
+  ('Melodie','Waters','limpieza',49),
+  ('Yasir','Rios','limpieza',30),
+  ('Ebony','Mcintosh','limpieza',24),
+  ('Jerry','Wynn','repositor',32);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Yetta','Hines','repositor',26),
+  ('Pamela','Russell','repositor',23),
+  ('Rhiannon','Grant','supervisor',44),
+  ('Steven','Harrell','repositor',29),
+  ('Denton','Ochoa','supervisor',34),
+  ('Gabriel','Briggs','repositor',46),
+  ('Orli','Bartlett','repositor',28),
+  ('Piper','Duran','cajero',36),
+  ('Brynne','O''donnell','supervisor',26),
+  ('Adam','Wiley','supervisor',27);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Jescie','Lester','repositor',47),
+  ('Jin','Curry','cajero',22),
+  ('Kirestin','Santos','supervisor',26),
+  ('James','Cervantes','cajero',38),
+  ('Deanna','Lindsey','supervisor',31),
+  ('Sybill','Bender','cajero',48),
+  ('Justina','Daniels','cajero',21),
+  ('Talon','Reed','limpieza',39),
+  ('Judith','Aguilar','limpieza',43),
+  ('Demetrius','Craft','limpieza',46);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Lyle','Andrews','cajero',43),
+  ('Cyrus','Long','cajero',44),
+  ('TaShya','Hood','cajero',34),
+  ('Sylvia','Hernandez','cajero',38),
+  ('Emi','Pickett','supervisor',35),
+  ('Kadeem','Gallegos','cajero',40),
+  ('Lance','Cannon','repositor',32),
+  ('Simone','Downs','cajero',33),
+  ('Buffy','Reid','repositor',24),
+  ('Ria','Shields','supervisor',31);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Jin','Le','limpieza',23),
+  ('Gil','Farley','cajero',46),
+  ('Octavius','Campbell','repositor',44),
+  ('Sybil','Frye','repositor',50),
+  ('Ulric','Conley','cajero',26),
+  ('Cathleen','Parks','limpieza',46),
+  ('Tyler','Rush','repositor',36),
+  ('Ross','Christian','supervisor',44),
+  ('Violet','Blair','repositor',37),
+  ('Tashya','Frank','limpieza',39);
+INSERT INTO empleados (nombre,apellido,sector,edad)
+VALUES
+  ('Denton','Ortiz','repositor',30),
+  ('Kathleen','Chaney','supervisor',40),
+  ('Linus','Kirk','limpieza',24),
+  ('Kaseem','King','limpieza',33),
+  ('Brian','Delgado','cajero',41),
+  ('Chanda','Vaughn','limpieza',43),
+  ('Catherine','Key','repositor',25),
+  ('Marvin','Gordon','supervisor',42),
+  ('Martina','Gould','cajero',37),
+  ('Basia','Buckner','cajero',47);
+
+  -- Clientes--
+
+  INSERT INTO clientes (nombre,apellido)
+VALUES
+  ('Cooper','Stanton'),
+  ('Mohammad','Shields'),
+  ('Courtney','Decker'),
+  ('Addison','Delgado'),
+  ('Nicholas','Valentine'),
+  ('Robert','Leonard'),
+  ('Uta','Oneil'),
+  ('Karleigh','Mcneil'),
+  ('Nicholas','Dodson'),
+  ('Gillian','Reilly');
+INSERT INTO clientes (nombre,apellido)
+VALUES
+  ('Damian','Cherry'),
+  ('Kai','Patton'),
+  ('Zia','Luna'),
+  ('Kieran','Parker'),
+  ('Virginia','Johnston'),
+  ('Caldwell','Gay'),
+  ('Claudia','Fry'),
+  ('Karly','Powell'),
+  ('Emma','Dixon'),
+  ('Constance','Mack');
+INSERT INTO clientes (nombre,apellido)
+VALUES
+  ('Ian','Larsen'),
+  ('Wilma','Mcleod'),
+  ('Garth','Stark'),
+  ('Jeanette','Hicks'),
+  ('Cora','Pacheco'),
+  ('Nicholas','Drake'),
+  ('Ezra','Calhoun'),
+  ('Amy','Webb'),
+  ('Alan','Knox'),
+  ('Adam','Huff');
+INSERT INTO clientes (nombre,apellido)
+VALUES
+  ('Judah','Cooper'),
+  ('Quemby','Avila'),
+  ('Penelope','Sparks'),
+  ('Naomi','Cunningham'),
+  ('Tanek','Vance'),
+  ('Libby','Calderon'),
+  ('Nita','Simon'),
+  ('Kelsey','Anthony'),
+  ('Dieter','Jacobson'),
+  ('Andrew','Best');
+INSERT INTO clientes (nombre,apellido)
+VALUES
+  ('Lavinia','Haynes'),
+  ('Camden','Hess'),
+  ('Cailin','Potts'),
+  ('Ronan','Ryan'),
+  ('Quinlan','Cochran'),
+  ('Channing','Key'),
+  ('Baker','Barrera'),
+  ('Leonard','Mcintosh'),
+  ('Aristotle','Spears'),
+  ('Fay','Harmon');
+INSERT INTO clientes (nombre,apellido)
+VALUES
+  ('Howard','Stanton'),
+  ('Illana','Martinez'),
+  ('Porter','Johnson'),
+  ('Kamal','Tanner'),
+  ('Cameron','Arnold'),
+  ('Dexter','Marks'),
+  ('Malcolm','Leblanc'),
+  ('Nissim','Sampson'),
+  ('Barrett','Shaffer'),
+  ('Jade','Hopper');
+INSERT INTO clientes (nombre,apellido)
+VALUES
+  ('Lillith','Atkinson'),
+  ('Garth','Roach'),
+  ('Walker','Calderon'),
+  ('Samuel','Christian'),
+  ('Lareina','Humphrey'),
+  ('Malik','Underwood'),
+  ('Odessa','Craig'),
+  ('Judith','Kennedy'),
+  ('Bevis','Sampson'),
+  ('Xenos','Curry');
+INSERT INTO clientes (nombre,apellido)
+VALUES
+  ('Summer','Davidson'),
+  ('Quail','Rivera'),
+  ('Brynne','Cunningham'),
+  ('Ginger','Larson'),
+  ('Nayda','Wall'),
+  ('Ori','Wilder'),
+  ('Ali','Mills'),
+  ('Wing','Joyce'),
+  ('Gregory','Maynard'),
+  ('Lionel','Best');
+INSERT INTO clientes (nombre,apellido)
+VALUES
+  ('Mollie','Byrd'),
+  ('Sawyer','Stanley'),
+  ('Carolyn','Lindsey'),
+  ('Beau','Wall'),
+  ('Naida','French'),
+  ('Sydnee','Salinas'),
+  ('Xandra','Stout'),
+  ('Rhona','Tucker'),
+  ('Jakeem','Henry'),
+  ('Zoe','Gross');
+INSERT INTO clientes (nombre,apellido)
+VALUES
+  ('Liberty','Guzman'),
+  ('Noel','Weber'),
+  ('Josephine','Rowland'),
+  ('Wing','Blankenship'),
+  ('Sade','Cole'),
+  ('Charde','Franco'),
+  ('Sybill','Parrish'),
+  ('Odessa','Nieves'),
+  ('Walter','Hull'),
+  ('Ebony','Kirby');
+
+-- Productos--
+
+INSERT INTO productos (nombre,marca,precio)
+VALUES
+  ('leche','Cuisine&Co',345),
+  ('gaseosa','Alpes',124),
+  ('harina','Alpes',303),
+  ('polenta','Arcor',239),
+  ('shampoo','Ciudad del Lago',488),
+  ('acondicionador','Ciudad del Lago',383),
+  ('detergente','Cuisine&Co',142),
+  ('lavandina','Cuisine&Co',110),
+  ('carne','Arcor',118),
+  ('pollo','Alpes',438);
+INSERT INTO productos (nombre,marca,precio)
+VALUES
+  ('leche','Arcor',129),
+  ('gaseosa','Ciudad del Lago',392),
+  ('harina','Alpes',349),
+  ('polenta','Alpes',471),
+  ('shampoo','Arcor',451),
+  ('acondicionador','Ciudad del Lago',294),
+  ('detergente','Cuisine&Co',156),
+  ('lavandina','Ciudad del Lago',399),
+  ('carne','Cuisine&Co',398),
+  ('pollo','Ciudad del Lago',362);
+INSERT INTO productos (nombre,marca,precio)
+VALUES
+  ('leche','Arcor',354),
+  ('gaseosa','Alpes',207),
+  ('harina','Ciudad del Lago',378),
+  ('polenta','Arcor',307),
+  ('shampoo','Ciudad del Lago',224),
+  ('acondicionador','Alpes',211),
+  ('detergente','Arcor',130),
+  ('lavandina','Arcor',276),
+  ('carne','Cuisine&Co',368),
+  ('pollo','Arcor',201);
+INSERT INTO productos (nombre,marca,precio)
+VALUES
+  ('leche','Alpes',497),
+  ('gaseosa','Arcor',296),
+  ('harina','Cuisine&Co',472),
+  ('polenta','Cuisine&Co',289),
+  ('shampoo','Ciudad del Lago',339),
+  ('acondicionador','Arcor',161),
+  ('detergente','Alpes',138),
+  ('lavandina','Ciudad del Lago',193),
+  ('carne','Ciudad del Lago',310),
+  ('pollo','Alpes',116);
+INSERT INTO productos (nombre,marca,precio)
+VALUES
+  ('leche','Cuisine&Co',190),
+  ('gaseosa','Arcor',186),
+  ('harina','Ciudad del Lago',192),
+  ('polenta','Alpes',354),
+  ('shampoo','Arcor',222),
+  ('acondicionador','Cuisine&Co',445),
+  ('detergente','Cuisine&Co',480),
+  ('lavandina','Alpes',126),
+  ('carne','Arcor',165),
+  ('pollo','Ciudad del Lago',239);
+INSERT INTO productos (nombre,marca,precio)
+VALUES
+  ('leche','Alpes',361),
+  ('gaseosa','Arcor',199),
+  ('harina','Alpes',140),
+  ('polenta','Cuisine&Co',253),
+  ('shampoo','Cuisine&Co',328),
+  ('acondicionador','Arcor',173),
+  ('detergente','Cuisine&Co',220),
+  ('lavandina','Cuisine&Co',332),
+  ('carne','Cuisine&Co',324),
+  ('pollo','Ciudad del Lago',454);
+INSERT INTO productos (nombre,marca,precio)
+VALUES
+  ('leche','Cuisine&Co',433),
+  ('gaseosa','Ciudad del Lago',453),
+  ('harina','Ciudad del Lago',441),
+  ('polenta','Ciudad del Lago',199),
+  ('shampoo','Cuisine&Co',313),
+  ('acondicionador','Arcor',444),
+  ('detergente','Alpes',392),
+  ('lavandina','Arcor',112),
+  ('carne','Cuisine&Co',357),
+  ('pollo','Cuisine&Co',165);
+INSERT INTO productos (nombre,marca,precio)
+VALUES
+  ('leche','Cuisine&Co',425),
+  ('gaseosa','Cuisine&Co',365),
+  ('harina','Ciudad del Lago',278),
+  ('polenta','Ciudad del Lago',415),
+  ('shampoo','Alpes',282),
+  ('acondicionador','Arcor',309),
+  ('detergente','Ciudad del Lago',350),
+  ('lavandina','Alpes',166),
+  ('carne','Ciudad del Lago',385),
+  ('pollo','Cuisine&Co',299);
+INSERT INTO productos (nombre,marca,precio)
+VALUES
+  ('leche','Arcor',303),
+  ('gaseosa','Cuisine&Co',267),
+  ('harina','Cuisine&Co',140),
+  ('polenta','Cuisine&Co',359),
+  ('shampoo','Ciudad del Lago',250),
+  ('acondicionador','Arcor',166),
+  ('detergente','Arcor',369),
+  ('lavandina','Arcor',162),
+  ('carne','Alpes',401),
+  ('pollo','Cuisine&Co',293);
+INSERT INTO productos (nombre,marca,precio)
+VALUES
+  ('leche','Alpes',387),
+  ('gaseosa','Ciudad del Lago',179),
+  ('harina','Alpes',457),
+  ('polenta','Cuisine&Co',334),
+  ('shampoo','Ciudad del Lago',429),
+  ('acondicionador','Arcor',460),
+  ('detergente','Ciudad del Lago',142),
+  ('lavandina','Ciudad del Lago',297),
+  ('carne','Arcor',435),
+  ('pollo','Ciudad del Lago',298);
+
+-- Supermercados --
+
+INSERT INTO supermercados (nombre,direccion,sucursal,id_empleado)
+VALUES
+  ('Jumbo','Dean Funes 1112',11,15),
+  ('Disco','Corrientes 555',23,24),
+  ('Disco','San Juan 2431',15,20),
+  ('Disco','La Rioja 2566',35,49),
+  ('Vea','Humberto 1° 3232',40,148),
+  ('Coto','Venezuela 1542',51,4),
+  ('Disco','Jujuy 5613',3,59),
+  ('Dia','Rincon 1522',7,10),
+  ('Disco','Cochabamba 3115',92,184),
+  ('Disco','Avellaneda 1003',49,190);
+  
+-- Productos x Supermercados --
+
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (66,4,3172),
+  (59,3,4762),
+  (40,8,2047),
+  (78,3,3054),
+  (28,5,3458),
+  (60,3,3589),
+  (65,8,2600),
+  (54,10,3937),
+  (45,5,3448),
+  (96,6,1899);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (71,5,2265),
+  (98,6,4700),
+  (5,6,3711),
+  (27,9,1674),
+  (22,2,4449),
+  (44,6,2015),
+  (82,4,2213),
+  (75,5,3175),
+  (36,6,4729),
+  (68,2,1924);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (44,7,1759),
+  (60,2,3609),
+  (48,3,1810),
+  (91,8,4828),
+  (69,2,3506),
+  (40,8,4799),
+  (63,3,1444),
+  (57,4,1213),
+  (35,3,1108),
+  (46,8,1120);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (23,2,1422),
+  (58,5,2241),
+  (28,8,2700),
+  (85,6,4621),
+  (35,8,3676),
+  (71,10,3079),
+  (30,6,3925),
+  (52,8,2200),
+  (77,9,2083),
+  (96,6,2317);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (18,3,4145),
+  (14,7,1753),
+  (27,3,4378),
+  (30,10,3495),
+  (93,8,2718),
+  (71,8,1274),
+  (27,5,3373),
+  (11,4,4789),
+  (62,1,1219),
+  (68,10,4153);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (48,6,3104),
+  (94,2,1845),
+  (70,8,4245),
+  (34,3,2668),
+  (50,7,2480),
+  (30,2,4333),
+  (39,2,3056),
+  (20,5,1256),
+  (71,4,1973),
+  (75,3,4087);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (89,3,3178),
+  (81,5,3099),
+  (64,9,3719),
+  (22,5,3812),
+  (90,2,3987),
+  (55,10,1007),
+  (38,6,1696),
+  (65,1,4108),
+  (74,3,2381),
+  (17,6,4818);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (8,7,3780),
+  (77,10,2816),
+  (99,5,4921),
+  (80,3,2861),
+  (58,9,2715),
+  (97,5,4338),
+  (82,5,4835),
+  (87,7,3874),
+  (69,6,2166),
+  (22,4,1179);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (2,8,3082),
+  (78,8,2432),
+  (48,1,2709),
+  (49,6,3469),
+  (95,9,3602),
+  (84,4,1538),
+  (5,4,4085),
+  (59,7,4717),
+  (16,7,1910),
+  (72,2,4951);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (29,9,2806),
+  (52,2,2286),
+  (89,5,3327),
+  (65,9,4806),
+  (1,2,4065),
+  (33,5,3965),
+  (67,9,3218),
+  (21,1,3062),
+  (79,4,4167),
+  (89,8,4729);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (49,6,1056),
+  (19,1,1479),
+  (90,5,4971),
+  (43,9,2975),
+  (17,10,4760),
+  (24,3,3545),
+  (38,4,1517),
+  (13,7,2237),
+  (44,9,2656),
+  (83,10,4276);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (17,6,1016),
+  (25,9,4934),
+  (91,5,1161),
+  (87,4,1047),
+  (3,8,1843),
+  (23,8,2620),
+  (7,10,3719),
+  (79,6,2609),
+  (78,10,1264),
+  (97,2,1469);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (98,1,4431),
+  (48,3,2652),
+  (72,3,2384),
+  (20,8,3176),
+  (74,6,4374),
+  (91,4,4025),
+  (12,3,3042),
+  (42,2,3857),
+  (18,2,2665),
+  (43,3,1651);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (79,6,4628),
+  (27,2,3526),
+  (78,9,2853),
+  (19,7,3410),
+  (36,6,2273),
+  (60,9,4559),
+  (64,9,1104),
+  (54,8,3024),
+  (2,7,2684),
+  (67,3,3381);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (84,4,1253),
+  (31,3,1964),
+  (46,8,2102),
+  (63,9,4654),
+  (6,8,2014),
+  (53,3,1671),
+  (66,8,2169),
+  (45,2,4145),
+  (66,2,4999),
+  (21,4,3405);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (45,6,2598),
+  (17,10,3481),
+  (52,7,2934),
+  (57,9,1494),
+  (50,9,2527),
+  (14,2,1922),
+  (16,4,3133),
+  (89,4,2009),
+  (18,8,3070),
+  (79,7,2787);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (95,4,4885),
+  (85,6,4139),
+  (70,6,1126),
+  (87,9,3188),
+  (100,5,4265),
+  (98,8,3375),
+  (16,5,2753),
+  (87,10,1811),
+  (88,6,4422),
+  (56,8,2266);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (21,10,4220),
+  (37,5,4715),
+  (33,3,3106),
+  (99,8,2119),
+  (14,5,3428),
+  (85,9,3815),
+  (65,8,2035),
+  (26,8,3519),
+  (42,4,2048),
+  (43,2,1418);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (17,7,4317),
+  (29,7,4886),
+  (51,5,1262),
+  (95,1,4727),
+  (95,7,1060),
+  (49,3,3199),
+  (97,7,2493),
+  (93,5,1569),
+  (92,6,2045),
+  (92,4,3137);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (14,9,2149),
+  (57,2,3635),
+  (32,2,2557),
+  (82,8,2021),
+  (55,6,1245),
+  (5,6,4524),
+  (56,7,1700),
+  (93,7,2509),
+  (64,5,4512),
+  (11,8,4503);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (59,7,3116),
+  (59,3,1330),
+  (14,4,2377),
+  (43,2,4153),
+  (36,2,2776),
+  (13,4,1123),
+  (94,2,1162),
+  (43,10,2882),
+  (9,7,3791),
+  (64,2,4835);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (87,8,2558),
+  (25,9,4021),
+  (60,5,1919),
+  (93,4,4840),
+  (5,7,1242),
+  (37,6,2734),
+  (50,2,1531),
+  (80,5,2593),
+  (69,6,4968),
+  (51,3,4004);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (25,3,2730),
+  (12,4,1239),
+  (42,10,1645),
+  (82,10,1433),
+  (60,7,1432),
+  (64,7,2291),
+  (69,4,4215),
+  (27,10,4202),
+  (75,6,1914),
+  (45,6,4703);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (7,2,1625),
+  (95,7,4583),
+  (4,7,2192),
+  (42,6,1125),
+  (97,2,2090),
+  (24,8,2583),
+  (41,8,1479),
+  (5,4,3725),
+  (84,9,2325),
+  (35,6,4516);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (17,10,1012),
+  (88,7,1127),
+  (49,8,4838),
+  (46,2,2481),
+  (100,8,3455),
+  (74,7,2439),
+  (82,10,4808),
+  (28,9,3195),
+  (24,2,1741),
+  (68,4,1651);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (21,6,4807),
+  (85,2,2613),
+  (93,2,4145),
+  (58,6,2709),
+  (12,2,2377),
+  (31,5,1086),
+  (80,2,3830),
+  (49,4,1588),
+  (46,4,1110),
+  (97,10,2273);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (80,7,2366),
+  (79,7,1789),
+  (36,10,1532),
+  (38,2,1399),
+  (52,8,4766),
+  (94,3,1154),
+  (20,1,3006),
+  (68,5,4875),
+  (20,8,1446),
+  (96,2,1529);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (44,9,3168),
+  (45,4,3789),
+  (65,5,3878),
+  (47,6,2319),
+  (31,10,3743),
+  (59,4,2338),
+  (72,4,4343),
+  (15,3,4330),
+  (5,4,4110),
+  (63,4,2138);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (56,3,2231),
+  (8,2,4704),
+  (61,7,1652),
+  (10,3,3483),
+  (95,9,4289),
+  (58,8,4032),
+  (51,10,1763),
+  (23,7,1516),
+  (43,3,4494),
+  (29,2,3712);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (89,7,1034),
+  (4,3,3111),
+  (63,4,3096),
+  (66,3,1750),
+  (69,2,2989),
+  (26,5,3217),
+  (20,4,1874),
+  (52,3,2209),
+  (92,9,4999),
+  (82,8,3953);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (72,4,1254),
+  (37,4,2012),
+  (20,6,2584),
+  (81,8,4926),
+  (53,1,4352),
+  (56,3,2166),
+  (75,5,1571),
+  (11,6,2186),
+  (11,8,1320),
+  (28,6,3366);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (39,1,3182),
+  (28,3,1875),
+  (75,7,2815),
+  (99,4,3961),
+  (7,5,3063),
+  (58,8,1263),
+  (23,4,3094),
+  (92,2,4766),
+  (75,7,1892),
+  (69,1,1646);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (1,4,1420),
+  (62,1,4572),
+  (66,7,2310),
+  (74,4,2349),
+  (50,1,2694),
+  (85,3,4340),
+  (86,7,2778),
+  (11,5,4964),
+  (12,6,3787),
+  (79,10,1469);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (11,6,2770),
+  (5,7,4898),
+  (8,9,1848),
+  (71,9,4107),
+  (95,2,3197),
+  (42,1,2551),
+  (86,3,1873),
+  (92,5,2664),
+  (49,8,2071),
+  (1,8,2957);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (22,8,3107),
+  (33,4,1743),
+  (45,6,1814),
+  (18,7,4490),
+  (17,8,3770),
+  (74,7,3922),
+  (90,4,1430),
+  (29,3,4414),
+  (84,3,4234),
+  (74,1,3447);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (47,2,1999),
+  (10,3,4789),
+  (56,2,2873),
+  (23,3,4098),
+  (6,9,3151),
+  (84,7,4509),
+  (97,1,3726),
+  (15,3,1685),
+  (31,4,1035),
+  (29,4,3377);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (63,8,4433),
+  (19,9,4710),
+  (20,3,2332),
+  (46,6,1954),
+  (42,2,1817),
+  (45,7,1414),
+  (46,2,1990),
+  (32,5,2233),
+  (6,9,4808),
+  (13,10,2008);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (19,3,1176),
+  (30,9,4269),
+  (45,3,3641),
+  (68,4,3889),
+  (33,5,2277),
+  (87,7,4816),
+  (33,1,1574),
+  (86,2,2182),
+  (88,8,3691),
+  (12,6,2024);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (36,10,2083),
+  (22,10,3952),
+  (91,6,3929),
+  (6,2,1308),
+  (26,6,2668),
+  (86,6,1837),
+  (24,7,1877),
+  (32,5,3801),
+  (31,9,3896),
+  (39,9,1825);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (58,1,4480),
+  (25,10,1058),
+  (12,8,1917),
+  (65,8,1639),
+  (93,4,1580),
+  (69,6,1224),
+  (46,2,2771),
+  (16,3,2261),
+  (47,7,1669),
+  (46,6,1096);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (38,4,4334),
+  (58,5,4662),
+  (12,2,1639),
+  (96,4,1361),
+  (13,6,2185),
+  (72,8,4628),
+  (3,6,4699),
+  (21,3,2689),
+  (43,4,2470),
+  (73,7,1724);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (44,1,1123),
+  (46,2,4853),
+  (34,6,4752),
+  (48,5,4906),
+  (9,1,2720),
+  (69,2,2607),
+  (64,4,1535),
+  (62,6,1441),
+  (69,6,3077),
+  (76,3,1875);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (68,8,3996),
+  (76,2,2354),
+  (51,7,4630),
+  (14,8,3835),
+  (71,5,3117),
+  (84,6,3522),
+  (91,8,3263),
+  (55,4,2906),
+  (20,8,4864),
+  (6,4,4963);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (87,3,1323),
+  (67,5,4029),
+  (16,7,1596),
+  (6,8,3212),
+  (84,4,4939),
+  (34,2,4925),
+  (18,6,4672),
+  (80,9,4774),
+  (29,5,4568),
+  (69,6,2736);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (26,3,4974),
+  (23,10,4270),
+  (16,6,4883),
+  (30,7,2767),
+  (81,7,2277),
+  (27,9,1249),
+  (50,6,1914),
+  (63,4,1301),
+  (40,6,2047),
+  (23,2,3170);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (31,9,1789),
+  (9,5,3746),
+  (29,9,4827),
+  (16,7,4117),
+  (90,2,4709),
+  (90,6,4875),
+  (24,5,1866),
+  (20,7,2063),
+  (67,7,1239),
+  (76,8,2090);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (41,10,2507),
+  (2,9,4712),
+  (22,10,4524),
+  (32,8,3138),
+  (81,8,3093),
+  (75,9,1350),
+  (35,10,1010),
+  (100,6,4534),
+  (35,10,3148),
+  (78,3,4948);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (64,5,2266),
+  (33,7,1094),
+  (27,5,2009),
+  (87,9,1399),
+  (65,9,2911),
+  (54,6,1057),
+  (11,1,1752),
+  (52,5,3953),
+  (12,3,1565),
+  (39,3,4331);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (82,7,3709),
+  (52,6,4627),
+  (99,2,3779),
+  (63,9,2041),
+  (4,7,4526),
+  (88,3,1454),
+  (23,7,3103),
+  (4,2,4141),
+  (45,7,1851),
+  (1,3,3064);
+INSERT INTO productos_x_supermercados (id_producto,id_supermercado,stock)
+VALUES
+  (58,4,4446),
+  (68,5,3394),
+  (37,3,1268),
+  (62,9,1771),
+  (14,7,3338),
+  (33,7,3967),
+  (97,3,3513),
+  (20,10,3708),
+  (89,8,4894),
+  (32,6,3243);
+
+  -- Ventas --
+
+  INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (45,14,3656),
+  (82,46,3331),
+  (67,55,4811),
+  (62,44,2837),
+  (53,68,3886),
+  (85,7,4973),
+  (87,67,3060),
+  (28,52,3590),
+  (18,94,2739),
+  (42,80,3314);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (25,10,2564),
+  (43,83,2264),
+  (12,61,2905),
+  (84,9,4832),
+  (26,81,4796),
+  (6,33,3774),
+  (27,33,2499),
+  (35,23,2894),
+  (36,53,4957),
+  (13,20,4392);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (51,19,3076),
+  (72,70,4592),
+  (17,86,2200),
+  (24,77,3152),
+  (67,100,3100),
+  (90,20,3618),
+  (45,28,4409),
+  (58,91,3412),
+  (98,79,4359),
+  (70,15,2707);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (73,91,3192),
+  (21,50,2824),
+  (42,52,3376),
+  (64,11,3920),
+  (55,14,4610),
+  (51,86,2909),
+  (13,54,2626),
+  (67,52,4113),
+  (84,96,2867),
+  (45,22,4183);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (22,5,3663),
+  (95,21,2403),
+  (39,50,2433),
+  (83,98,4640),
+  (82,56,4331),
+  (81,67,4297),
+  (59,79,4999),
+  (55,18,2529),
+  (44,93,2800),
+  (3,91,2271);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (23,61,3158),
+  (22,34,3610),
+  (53,26,4735),
+  (36,33,3484),
+  (6,79,4939),
+  (21,25,3515),
+  (66,86,4597),
+  (36,39,2673),
+  (42,57,3818),
+  (85,84,2394);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (85,3,4171),
+  (36,85,4742),
+  (31,38,4891),
+  (48,88,2890),
+  (31,48,4500),
+  (48,10,2980),
+  (47,28,2528),
+  (78,22,4602),
+  (28,83,3829),
+  (61,64,2670);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (7,62,3670),
+  (47,17,2757),
+  (6,76,3780),
+  (92,39,3542),
+  (23,60,3704),
+  (42,76,4190),
+  (66,80,2269),
+  (29,41,4963),
+  (35,61,4168),
+  (92,87,2821);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (9,96,3395),
+  (55,39,4390),
+  (64,49,2424),
+  (1,81,3395),
+  (35,63,2787),
+  (51,89,3197),
+  (41,21,2545),
+  (41,78,4782),
+  (39,42,2320),
+  (100,72,4885);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (30,37,3243),
+  (25,30,3363),
+  (49,3,3032),
+  (38,60,3739),
+  (91,43,4673),
+  (89,61,2583),
+  (37,59,2921),
+  (70,32,3870),
+  (95,71,3364),
+  (85,16,3037);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (20,89,4870),
+  (37,19,3903),
+  (12,23,3596),
+  (25,59,2434),
+  (43,24,2991),
+  (42,51,3339),
+  (7,78,3952),
+  (22,49,3796),
+  (89,31,2806),
+  (39,88,4940);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (71,78,3177),
+  (67,35,3536),
+  (78,32,4346),
+  (69,13,4075),
+  (22,70,3518),
+  (4,96,2255),
+  (87,52,3161),
+  (77,39,2578),
+  (8,10,4156),
+  (18,54,4916);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (20,13,4113),
+  (12,57,4561),
+  (39,7,2236),
+  (89,23,2398),
+  (6,32,4730),
+  (98,5,4618),
+  (93,63,2763),
+  (92,73,2139),
+  (45,61,4785),
+  (75,66,4748);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (76,97,4539),
+  (35,54,4689),
+  (40,63,2128),
+  (46,37,4598),
+  (11,18,3994),
+  (16,40,2521),
+  (80,29,3816),
+  (24,91,4892),
+  (4,52,4303),
+  (8,23,3077);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (88,78,2934),
+  (66,87,3026),
+  (90,3,2097),
+  (45,98,3099),
+  (99,96,2330),
+  (34,39,4962),
+  (83,48,2161),
+  (6,35,2100),
+  (38,37,3328),
+  (48,93,2159);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (20,9,4609),
+  (59,20,4482),
+  (93,60,3798),
+  (98,92,3564),
+  (95,31,3004),
+  (58,60,4591),
+  (15,80,2626),
+  (51,15,3677),
+  (31,35,2743),
+  (93,41,4627);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (56,57,3875),
+  (65,57,2530),
+  (71,63,2672),
+  (29,31,3991),
+  (87,98,3692),
+  (39,82,4039),
+  (42,39,3006),
+  (36,83,2435),
+  (60,43,4123),
+  (74,5,2670);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (40,45,2569),
+  (62,20,4604),
+  (20,4,3985),
+  (78,76,2184),
+  (40,73,3816),
+  (41,79,2389),
+  (24,47,4607),
+  (50,41,2788),
+  (15,33,4656),
+  (85,46,2701);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (59,42,2132),
+  (25,10,2138),
+  (93,62,3715),
+  (58,61,3109),
+  (58,97,2379),
+  (86,75,4579),
+  (48,27,3265),
+  (48,10,2726),
+  (30,15,3657),
+  (4,85,4407);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (61,33,4697),
+  (29,76,2898),
+  (65,69,2794),
+  (77,39,4409),
+  (23,36,2309),
+  (30,49,2726),
+  (5,10,4466),
+  (78,13,2608),
+  (72,56,2997),
+  (79,27,2276);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (64,69,4140),
+  (87,35,4684),
+  (2,66,3971),
+  (38,75,3401),
+  (47,55,2878),
+  (47,67,3385),
+  (40,33,3543),
+  (100,10,4721),
+  (46,48,3621),
+  (15,30,4716);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (11,98,2562),
+  (48,82,3481),
+  (4,78,2942),
+  (68,61,3460),
+  (35,97,2285),
+  (29,47,2644),
+  (11,59,3520),
+  (68,64,2163),
+  (82,21,3329),
+  (27,22,4789);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (12,32,2971),
+  (89,93,4836),
+  (8,56,2152),
+  (47,42,2708),
+  (36,53,3422),
+  (2,89,3568),
+  (43,75,2793),
+  (2,19,3577),
+  (34,4,3267),
+  (71,45,4327);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (66,2,2832),
+  (53,91,2243),
+  (69,22,4463),
+  (58,29,2920),
+  (74,34,2570),
+  (92,94,2723),
+  (69,96,4693),
+  (4,62,2385),
+  (52,58,4395),
+  (41,92,4472);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (25,30,4794),
+  (100,87,2108),
+  (10,74,3760),
+  (22,7,2404),
+  (66,15,2935),
+  (15,7,4881),
+  (54,84,3323),
+  (33,87,3464),
+  (59,86,2689),
+  (53,36,2370);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (21,62,2291),
+  (18,99,4423),
+  (61,42,2390),
+  (90,89,3212),
+  (97,82,2960),
+  (23,65,2585),
+  (92,70,3596),
+  (31,45,2337),
+  (48,24,2415),
+  (65,75,4849);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (36,71,3933),
+  (29,69,3125),
+  (23,87,3653),
+  (5,69,3814),
+  (50,44,4042),
+  (67,91,3145),
+  (60,76,4813),
+  (16,68,3259),
+  (87,69,3116),
+  (68,79,2495);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (14,61,4078),
+  (72,76,3491),
+  (80,17,3940),
+  (73,43,2309),
+  (86,43,4859),
+  (2,8,2168),
+  (41,36,2720),
+  (94,87,2132),
+  (6,85,3923),
+  (43,25,4198);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (23,84,3132),
+  (39,13,2436),
+  (31,76,4806),
+  (39,99,2587),
+  (4,13,4844),
+  (61,33,2414),
+  (67,56,2474),
+  (55,78,4060),
+  (85,20,4692),
+  (85,92,2536);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (64,93,2513),
+  (19,66,3666),
+  (14,81,2473),
+  (19,30,4340),
+  (4,92,4775),
+  (45,14,3469),
+  (66,10,3401),
+  (97,90,4477),
+  (8,79,4022),
+  (76,92,2205);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (28,35,3882),
+  (97,79,3050),
+  (41,91,2649),
+  (34,94,3949),
+  (87,63,4204),
+  (54,65,4444),
+  (34,20,3665),
+  (29,89,3033),
+  (24,71,2113),
+  (27,89,4510);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (39,28,3798),
+  (88,39,3126),
+  (6,29,2121),
+  (40,23,2090),
+  (2,54,4064),
+  (47,47,3666),
+  (63,38,3164),
+  (49,96,2272),
+  (78,21,2297),
+  (37,83,3127);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (82,16,4392),
+  (23,82,2932),
+  (7,54,2184),
+  (44,6,3793),
+  (12,96,2329),
+  (59,49,4196),
+  (94,53,4744),
+  (87,84,3618),
+  (44,69,4738),
+  (78,57,3243);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (16,36,3127),
+  (93,33,4688),
+  (8,59,4045),
+  (82,65,3979),
+  (95,34,3776),
+  (91,10,2719),
+  (81,10,2594),
+  (26,15,2371),
+  (35,17,4292),
+  (80,95,4056);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (2,38,4753),
+  (33,7,3773),
+  (21,34,4223),
+  (46,21,3663),
+  (73,22,3969),
+  (47,34,2660),
+  (62,65,4024),
+  (36,32,3063),
+  (91,54,4454),
+  (92,28,3908);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (30,30,4085),
+  (61,79,3863),
+  (73,41,4540),
+  (52,64,2996),
+  (38,19,2921),
+  (78,99,2235),
+  (59,30,4354),
+  (96,37,3806),
+  (94,76,2794),
+  (73,57,2927);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (66,90,3369),
+  (75,40,3683),
+  (73,56,2968),
+  (61,22,2061),
+  (15,87,4436),
+  (20,40,4337),
+  (87,95,4564),
+  (75,40,4875),
+  (57,48,2670),
+  (78,52,4255);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (55,23,3225),
+  (37,13,3222),
+  (18,11,4833),
+  (51,28,4557),
+  (86,13,4098),
+  (39,17,3920),
+  (23,10,4869),
+  (77,55,2772),
+  (93,53,3424),
+  (40,77,2432);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (11,83,3632),
+  (44,16,4569),
+  (80,58,4053),
+  (13,48,4575),
+  (26,73,3399),
+  (67,14,2693),
+  (73,80,3769),
+  (38,65,3424),
+  (79,5,4510),
+  (53,21,3514);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (39,94,3485),
+  (61,59,2684),
+  (45,12,2557),
+  (92,9,3287),
+  (92,33,3853),
+  (94,10,4492),
+  (47,15,4774),
+  (89,36,3358),
+  (75,49,3857),
+  (35,22,4544);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (8,72,3731),
+  (18,37,4301),
+  (72,74,3559),
+  (92,65,3402),
+  (51,76,3350),
+  (20,23,4689),
+  (38,51,3657),
+  (16,64,2625),
+  (92,70,2756),
+  (72,23,2758);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (100,11,3175),
+  (61,99,2449),
+  (63,57,3451),
+  (9,29,4812),
+  (39,87,3482),
+  (50,12,3018),
+  (62,55,2151),
+  (90,88,3461),
+  (74,34,2688),
+  (2,76,3880);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (95,40,4160),
+  (75,67,2316),
+  (34,50,4712),
+  (60,49,4165),
+  (5,25,2687),
+  (49,9,2001),
+  (90,49,3496),
+  (47,25,2481),
+  (20,20,4148),
+  (73,31,4594);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (72,4,3431),
+  (88,69,2833),
+  (14,64,3988),
+  (86,100,3902),
+  (28,60,4850),
+  (79,98,4891),
+  (69,41,4463),
+  (77,6,2084),
+  (61,91,2831),
+  (33,16,3517);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (30,69,3960),
+  (3,18,2080),
+  (8,62,2070),
+  (76,31,4511),
+  (41,71,2902),
+  (44,5,2332),
+  (62,91,4295),
+  (58,85,4041),
+  (25,36,4713),
+  (25,28,2632);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (15,64,3079),
+  (57,22,3183),
+  (11,16,3716),
+  (83,21,2011),
+  (74,67,4965),
+  (96,1,4108),
+  (6,79,2696),
+  (72,9,4051),
+  (54,41,4939),
+  (14,53,4648);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (6,62,2767),
+  (89,88,3716),
+  (18,7,2221),
+  (84,96,2537),
+  (93,23,2333),
+  (80,81,4401),
+  (64,1,3678),
+  (96,48,4370),
+  (82,47,4664),
+  (84,51,2557);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (40,81,2592),
+  (86,93,4277),
+  (55,38,2517),
+  (29,59,3469),
+  (33,12,2395),
+  (44,80,4061),
+  (79,94,4340),
+  (6,99,4143),
+  (95,13,3156),
+  (12,61,2618);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (45,2,2481),
+  (22,17,4685),
+  (22,7,4008),
+  (63,39,3410),
+  (19,60,3632),
+  (39,99,4174),
+  (69,11,4122),
+  (79,15,3727),
+  (29,58,4471),
+  (20,7,3752);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (16,31,3159),
+  (39,68,2267),
+  (83,31,2939),
+  (34,71,3308),
+  (16,6,3459),
+  (28,45,4088),
+  (19,13,4231),
+  (99,41,3059),
+  (6,58,3070),
+  (67,99,3425);
+
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (97,87,3505),
+  (29,35,4415),
+  (90,93,3368),
+  (27,13,3897),
+  (77,98,3256),
+  (82,11,4470),
+  (62,91,2270),
+  (54,84,4198),
+  (5,79,4497),
+  (73,1,3202);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (53,74,3453),
+  (36,56,4489),
+  (80,76,3199),
+  (95,99,2777),
+  (54,38,3259),
+  (4,14,3065),
+  (81,91,2043),
+  (20,46,3414),
+  (30,70,4328),
+  (71,24,3110);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (71,48,4925),
+  (91,89,2785),
+  (37,67,4837),
+  (85,52,4732),
+  (88,12,2873),
+  (53,14,2309),
+  (51,11,2049),
+  (32,56,2077),
+  (37,93,4689),
+  (45,52,2139);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (99,77,4344),
+  (45,54,3875),
+  (94,7,3940),
+  (41,36,2180),
+  (52,40,4420),
+  (58,48,3134),
+  (98,83,4284),
+  (63,21,3824),
+  (47,49,4616),
+  (21,86,3972);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (31,14,2890),
+  (77,53,2878),
+  (27,60,3793),
+  (25,89,4991),
+  (56,96,4840),
+  (85,51,2368),
+  (56,90,2174),
+  (28,63,4006),
+  (34,96,4058),
+  (40,3,4559);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (25,44,4663),
+  (19,54,4656),
+  (10,19,3774),
+  (81,61,4139),
+  (97,25,4341),
+  (87,51,3180),
+  (10,73,3068),
+  (65,89,2046),
+  (25,87,3335),
+  (74,36,4518);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (71,22,4121),
+  (18,7,4948),
+  (53,56,4981),
+  (61,44,2751),
+  (34,32,4723),
+  (60,37,3268),
+  (75,91,4836),
+  (60,3,2840),
+  (57,52,3479),
+  (35,75,4442);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (67,44,4038),
+  (78,21,2984),
+  (70,41,3541),
+  (94,68,4405),
+  (86,56,4180),
+  (31,35,4216),
+  (28,32,2472),
+  (48,77,2829),
+  (3,34,4874),
+  (59,92,3538);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (97,15,2715),
+  (86,10,2131),
+  (37,66,3483),
+  (60,87,4239),
+  (77,28,3303),
+  (50,8,2164),
+  (33,22,4087),
+  (51,46,4447),
+  (49,70,3659),
+  (19,24,3082);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (82,8,4266),
+  (32,65,3956),
+  (53,29,2405),
+  (47,48,4243),
+  (90,33,4865),
+  (85,38,3478),
+  (44,81,3533),
+  (17,28,4107),
+  (78,5,4256),
+  (41,29,3885);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (2,35,3122),
+  (37,36,4131),
+  (68,27,3364),
+  (34,95,3857),
+  (18,54,3680),
+  (33,43,2075),
+  (93,28,2816),
+  (21,45,3276),
+  (36,18,2937),
+  (24,51,3467);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (29,57,2846),
+  (70,55,3368),
+  (79,14,4574),
+  (49,50,2627),
+  (14,96,3843),
+  (44,39,2541),
+  (70,28,2538),
+  (21,72,3525),
+  (74,30,3199),
+  (56,92,4606);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (34,29,4649),
+  (89,6,3568),
+  (60,69,3199),
+  (69,75,4526),
+  (89,80,2726),
+  (49,24,4047),
+  (3,8,3927),
+  (79,74,3798),
+  (14,61,4046),
+  (94,33,2510);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (92,84,2077),
+  (47,47,4930),
+  (81,9,4338),
+  (51,15,4584),
+  (48,87,3446),
+  (36,20,4884),
+  (68,20,2461),
+  (35,67,3983),
+  (11,85,3044),
+  (62,95,3359);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (12,29,3534),
+  (85,55,3827),
+  (23,39,2171),
+  (33,74,4380),
+  (56,42,3059),
+  (53,4,2183),
+  (87,57,4075),
+  (56,33,3079),
+  (59,92,4524),
+  (88,39,2222);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (29,80,2786),
+  (79,60,2953),
+  (29,13,4530),
+  (39,3,4800),
+  (83,18,2951),
+  (54,46,2642),
+  (35,21,4199),
+  (9,87,3695),
+  (90,95,4539),
+  (57,93,2142);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (96,9,2058),
+  (83,33,2898),
+  (57,40,3395),
+  (94,39,2036),
+  (55,38,4911),
+  (28,76,3189),
+  (66,8,4184),
+  (30,9,4690),
+  (92,35,3850),
+  (42,99,4710);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (84,25,4671),
+  (12,83,4831),
+  (94,81,4480),
+  (97,79,3077),
+  (24,78,3210),
+  (42,48,3034),
+  (23,48,4517),
+  (11,77,4818),
+  (39,36,3544),
+  (75,98,2553);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (3,33,3924),
+  (7,3,4343),
+  (35,31,4946),
+  (42,96,3797),
+  (18,31,2965),
+  (84,37,4351),
+  (32,50,4121),
+  (7,64,4545),
+  (2,83,2999),
+  (31,45,4595);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (36,26,4110),
+  (18,55,4874),
+  (4,63,3883),
+  (88,80,2596),
+  (25,94,3259),
+  (67,41,2228),
+  (13,47,3223),
+  (7,88,2191),
+  (94,38,3401),
+  (67,53,3029);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (42,44,3085),
+  (84,29,4470),
+  (96,74,4468),
+  (33,18,4390),
+  (2,87,3270),
+  (4,3,3517),
+  (83,94,2810),
+  (40,89,3957),
+  (89,59,4864),
+  (94,3,3387);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (5,35,4812),
+  (70,49,3596),
+  (83,31,3749),
+  (71,92,3241),
+  (62,96,3783),
+  (59,43,4649),
+  (46,35,3244),
+  (57,96,4214),
+  (14,21,4310),
+  (1,90,2432);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (73,54,4606),
+  (57,53,4506),
+  (2,42,4805),
+  (50,65,3059),
+  (70,59,3938),
+  (15,83,2558),
+  (53,85,3508),
+  (70,30,3338),
+  (5,11,2543),
+  (54,90,3637);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (68,96,4235),
+  (93,26,4465),
+  (2,3,4051),
+  (90,18,2024),
+  (86,8,4944),
+  (69,67,3529),
+  (74,46,3024),
+  (23,72,3317),
+  (99,58,3976),
+  (41,21,2845);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (27,4,4409),
+  (26,77,4075),
+  (22,43,4585),
+  (80,17,2118),
+  (63,87,4031),
+  (51,22,3968),
+  (57,61,3472),
+  (48,82,3103),
+  (43,86,3539),
+  (13,63,4368);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (18,42,2119),
+  (100,49,3631),
+  (41,34,3267),
+  (40,98,3646),
+  (90,39,4249),
+  (27,86,2403),
+  (35,14,2144),
+  (39,30,2419),
+  (86,36,3939),
+  (25,75,2984);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (43,6,2628),
+  (35,6,2128),
+  (34,44,2748),
+  (13,41,2564),
+  (45,20,4914),
+  (78,92,4800),
+  (57,50,3474),
+  (75,4,2743),
+  (74,80,2406),
+  (83,97,2298);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (14,8,3861),
+  (95,90,2300),
+  (84,67,2611),
+  (18,94,3940),
+  (51,98,3899),
+  (19,66,3041),
+  (67,71,3335),
+  (95,16,2923),
+  (48,71,4678),
+  (44,14,3514);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (92,61,2300),
+  (4,79,2629),
+  (38,19,3235),
+  (51,43,4071),
+  (71,10,4374),
+  (53,97,2334),
+  (40,34,3311),
+  (84,80,2575),
+  (31,57,3663),
+  (67,21,4147);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (100,21,4301),
+  (65,84,3694),
+  (57,7,4030),
+  (46,39,2500),
+  (46,4,4418),
+  (7,52,4239),
+  (79,56,4094),
+  (72,27,2981),
+  (93,19,4670),
+  (71,18,2708);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (91,69,3788),
+  (59,65,3005),
+  (53,61,2236),
+  (40,47,3821),
+  (46,45,4210),
+  (55,62,3093),
+  (23,23,3437),
+  (48,60,2665),
+  (13,36,2900),
+  (11,46,3930);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (35,38,4138),
+  (63,52,2692),
+  (95,51,4610),
+  (78,21,3638),
+  (24,64,2814),
+  (88,11,3258),
+  (85,81,2712),
+  (58,33,2007),
+  (70,76,2410),
+  (19,70,3837);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (72,59,4082),
+  (8,38,4880),
+  (65,70,2037),
+  (21,54,2344),
+  (100,8,2209),
+  (47,7,4156),
+  (77,59,2835),
+  (54,13,4532),
+  (65,61,3647),
+  (82,50,4977);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (71,98,4595),
+  (93,76,2761),
+  (5,45,2780),
+  (90,59,4299),
+  (74,50,2019),
+  (82,92,3297),
+  (13,88,3583),
+  (65,58,2417),
+  (45,90,3765),
+  (48,50,2768);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (78,69,4603),
+  (47,85,3843),
+  (4,70,2925),
+  (49,2,4005),
+  (33,16,3276),
+  (38,30,2518),
+  (19,10,3736),
+  (39,50,2429),
+  (35,70,3237),
+  (35,20,4606);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (77,20,4587),
+  (47,39,3410),
+  (87,28,3948),
+  (49,66,2696),
+  (60,44,2323),
+  (80,61,2052),
+  (14,29,2201),
+  (9,37,2361),
+  (96,97,4966),
+  (36,10,3870);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (35,25,4801),
+  (18,9,2474),
+  (81,51,2278),
+  (42,5,2139),
+  (42,78,3828),
+  (73,25,4486),
+  (42,55,2493),
+  (58,83,4552),
+  (61,24,4257),
+  (80,7,3037);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (63,32,4037),
+  (79,49,3099),
+  (43,80,3500),
+  (66,64,2916),
+  (84,67,4277),
+  (64,94,3881),
+  (79,69,3829),
+  (93,23,2808),
+  (62,53,2656),
+  (99,16,3838);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (23,6,3587),
+  (24,69,4205),
+  (45,3,3642),
+  (86,79,3019),
+  (60,81,2921),
+  (63,34,3957),
+  (30,85,3823),
+  (1,41,4298),
+  (11,60,2307),
+  (40,17,4272);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (90,15,2396),
+  (27,2,2205),
+  (73,23,2804),
+  (46,16,4476),
+  (96,44,2296),
+  (10,24,2745),
+  (16,41,2154),
+  (45,70,4774),
+  (64,82,2982),
+  (50,40,4455);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (67,50,3537),
+  (2,19,3997),
+  (54,98,4490),
+  (24,54,4746),
+  (90,18,3117),
+  (30,22,2309),
+  (77,22,2730),
+  (83,7,4703),
+  (5,23,2248),
+  (15,23,4051);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (91,35,3784),
+  (76,87,2566),
+  (76,41,4931),
+  (29,29,3464),
+  (40,59,4681),
+  (96,40,4273),
+  (29,48,3434),
+  (49,70,4859),
+  (71,84,2848),
+  (44,36,2304);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (11,97,2799),
+  (83,58,4590),
+  (39,47,2585),
+  (55,96,2606),
+  (96,25,3766),
+  (39,8,2298),
+  (3,51,2670),
+  (39,74,2842),
+  (25,85,4098),
+  (53,59,2143);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (22,24,2102),
+  (19,79,4455),
+  (85,53,3194),
+  (72,8,3466),
+  (89,49,4220),
+  (39,46,4564),
+  (89,85,4882),
+  (44,58,3749),
+  (59,1,4621),
+  (63,24,3808);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (26,86,2423),
+  (4,64,2487),
+  (67,10,2301),
+  (61,19,3918),
+  (71,83,4732),
+  (61,39,3047),
+  (80,99,2284),
+  (59,26,3810),
+  (70,100,3516),
+  (83,94,3825);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (54,25,4838),
+  (90,58,2642),
+  (43,42,2192),
+  (90,8,3859),
+  (49,7,2086),
+  (44,34,3590),
+  (26,7,3228),
+  (36,11,3876),
+  (75,91,2181),
+  (37,33,3785);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (42,40,3391),
+  (95,11,2772),
+  (53,77,2040),
+  (41,25,3402),
+  (80,32,2824),
+  (41,54,2061),
+  (88,5,2874),
+  (82,94,4402),
+  (38,9,4386),
+  (15,58,2916);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (89,32,3588),
+  (84,3,2808),
+  (37,95,2921),
+  (20,59,3730),
+  (73,45,4707),
+  (47,3,3326),
+  (56,36,4903),
+  (57,23,3342),
+  (41,98,2526),
+  (60,15,2721);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (30,64,3883),
+  (72,32,3942),
+  (54,29,2203),
+  (55,13,3004),
+  (82,82,3758),
+  (25,46,4022),
+  (71,72,4417),
+  (58,77,3195),
+  (89,82,3434),
+  (85,76,4925);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (26,27,3994),
+  (7,50,2344),
+  (3,78,4393),
+  (17,13,2081),
+  (5,14,4329),
+  (34,60,2489),
+  (28,35,4985),
+  (64,86,2878),
+  (70,50,4803),
+  (56,47,2532);
+
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (94,9,3263),
+  (62,60,3071),
+  (73,36,3128),
+  (3,83,3720),
+  (21,58,4447),
+  (11,71,2601),
+  (95,42,3341),
+  (90,31,2565),
+  (12,54,4914),
+  (84,81,3702);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (36,13,4156),
+  (77,97,3073),
+  (48,39,2651),
+  (88,10,3379),
+  (86,70,2419),
+  (91,43,4311),
+  (96,21,4898),
+  (14,88,3429),
+  (71,31,3224),
+  (40,47,2137);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (92,63,3335),
+  (60,59,3376),
+  (26,4,3172),
+  (65,70,3820),
+  (85,46,4666),
+  (92,7,4530),
+  (70,19,3815),
+  (37,75,3864),
+  (89,68,4101),
+  (95,21,3531);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (1,9,3118),
+  (56,4,4711),
+  (9,17,2636),
+  (60,37,4935),
+  (65,23,4025),
+  (51,41,2440),
+  (4,99,3578),
+  (95,69,3580),
+  (92,96,4420),
+  (16,37,2775);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (46,99,4907),
+  (19,64,4512),
+  (28,71,3905),
+  (87,62,4904),
+  (64,42,4342),
+  (19,53,4101),
+  (31,47,4726),
+  (49,17,3643),
+  (97,60,2861),
+  (60,38,3895);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (61,86,4770),
+  (34,62,4188),
+  (43,10,3498),
+  (17,16,2021),
+  (73,36,3029),
+  (1,75,4014),
+  (70,15,3686),
+  (41,38,2226),
+  (32,73,4977),
+  (19,4,3061);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (74,25,3332),
+  (12,98,2665),
+  (96,71,4097),
+  (92,51,3134),
+  (17,89,4415),
+  (29,30,2813),
+  (37,31,3343),
+  (97,5,3919),
+  (57,50,3251),
+  (27,24,2394);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (25,98,4646),
+  (12,64,3936),
+  (66,7,2519),
+  (59,34,2535),
+  (45,24,2167),
+  (62,26,2219),
+  (55,38,2689),
+  (26,70,2472),
+  (39,33,3100),
+  (42,89,2934);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (40,38,3919),
+  (91,51,4451),
+  (55,48,2760),
+  (42,95,3119),
+  (76,88,2317),
+  (3,71,4738),
+  (90,26,3217),
+  (36,33,2834),
+  (47,7,2850),
+  (6,78,3145);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (99,72,4468),
+  (50,39,2411),
+  (84,27,4345),
+  (17,57,3404),
+  (2,15,2831),
+  (21,84,2677),
+  (84,86,4161),
+  (27,41,4956),
+  (85,33,4559),
+  (92,44,3462);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (25,7,4587),
+  (21,20,4332),
+  (12,90,3241),
+  (8,45,3994),
+  (38,75,3982),
+  (4,96,3035),
+  (16,26,4843),
+  (14,65,3469),
+  (16,97,4195),
+  (6,98,3909);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (76,17,4599),
+  (15,9,2651),
+  (78,63,3624),
+  (39,64,3668),
+  (15,71,4713),
+  (15,92,4588),
+  (24,7,2857),
+  (44,98,3591),
+  (14,23,3027),
+  (25,96,2754);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (77,18,4600),
+  (72,14,2387),
+  (82,63,4573),
+  (60,2,2524),
+  (94,61,3318),
+  (25,71,3739),
+  (52,10,3789),
+  (99,66,3367),
+  (13,47,3245),
+  (34,48,2091);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (95,10,4731),
+  (54,92,2705),
+  (99,53,4003),
+  (92,22,4346),
+  (14,89,4936),
+  (63,23,4662),
+  (85,98,4084),
+  (7,36,4025),
+  (40,81,4777),
+  (94,71,2064);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (5,77,2653),
+  (2,38,4607),
+  (3,14,2892),
+  (68,34,3768),
+  (18,40,2529),
+  (92,39,3317),
+  (83,100,3515),
+  (71,41,2178),
+  (33,51,3410),
+  (45,31,2582);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (19,10,3643),
+  (94,19,4267),
+  (21,97,3854),
+  (36,84,2488),
+  (33,28,4332),
+  (60,93,4500),
+  (6,36,3833),
+  (96,20,2492),
+  (10,62,3911),
+  (68,75,2461);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (89,57,2837),
+  (47,47,2089),
+  (59,56,2224),
+  (35,51,2347),
+  (28,50,2675),
+  (77,94,2085),
+  (59,2,4799),
+  (70,60,4000),
+  (99,85,3045),
+  (69,84,2472);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (60,15,2102),
+  (94,33,4783),
+  (87,48,3354),
+  (74,97,4334),
+  (61,2,4973),
+  (44,89,4904),
+  (93,86,3013),
+  (85,5,3036),
+  (19,20,2642),
+  (16,53,2561);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (98,75,4972),
+  (69,92,2040),
+  (29,49,4823),
+  (35,3,2430),
+  (56,10,2010),
+  (36,20,2268),
+  (49,41,4607),
+  (92,21,2118),
+  (12,69,3532),
+  (80,98,4324);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (9,82,3741),
+  (16,49,2879),
+  (91,6,4538),
+  (60,6,2062),
+  (42,58,4873),
+  (17,66,2269),
+  (4,87,4572),
+  (9,44,4278),
+  (53,37,4575),
+  (49,85,2376);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (25,99,4295),
+  (9,13,4920),
+  (30,4,3285),
+  (15,73,2847),
+  (77,15,2572),
+  (99,63,2665),
+  (97,39,4371),
+  (64,52,3811),
+  (26,6,4985),
+  (67,23,3269);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (38,52,4683),
+  (2,39,4394),
+  (87,33,2036),
+  (89,6,3418),
+  (74,16,4231),
+  (22,70,3778),
+  (32,39,4314),
+  (65,86,4730),
+  (56,57,3749),
+  (10,66,2754);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (85,94,3481),
+  (26,83,4886),
+  (34,68,2870),
+  (79,22,2222),
+  (32,66,3319),
+  (43,96,3793),
+  (72,95,2739),
+  (89,99,4005),
+  (73,99,4573),
+  (78,44,3691);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (34,30,2745),
+  (2,70,4178),
+  (8,11,2235),
+  (10,9,3339),
+  (93,28,2556),
+  (89,19,4240),
+  (30,8,2428),
+  (36,28,3766),
+  (88,6,3719),
+  (22,22,4146);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (69,83,3169),
+  (17,64,4213),
+  (18,37,4103),
+  (92,98,3968),
+  (43,9,2777),
+  (43,20,2517),
+  (35,37,2449),
+  (60,94,2304),
+  (4,31,3943),
+  (47,90,3932);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (76,90,4900),
+  (95,66,2459),
+  (51,1,2911),
+  (88,7,4285),
+  (60,33,3647),
+  (53,40,4941),
+  (14,5,2411),
+  (17,16,4052),
+  (65,39,3500),
+  (30,62,3785);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (47,9,4319),
+  (53,75,2814),
+  (91,27,4882),
+  (15,9,3692),
+  (44,98,3626),
+  (82,56,2245),
+  (92,47,4697),
+  (97,10,4648),
+  (87,89,2650),
+  (78,45,2638);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (2,99,2024),
+  (79,47,4870),
+  (98,68,2188),
+  (17,16,2387),
+  (66,59,3243),
+  (78,6,2664),
+  (5,61,3107),
+  (1,58,3438),
+  (32,46,4599),
+  (59,33,4192);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (24,97,3400),
+  (86,81,4368),
+  (25,26,4982),
+  (57,25,3129),
+  (93,31,4322),
+  (1,17,2386),
+  (15,24,2983),
+  (88,72,2662),
+  (79,16,3293),
+  (8,28,3122);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (23,5,3865),
+  (74,53,2969),
+  (8,26,2455),
+  (87,20,3876),
+  (82,30,3801),
+  (32,21,3346),
+  (56,73,3891),
+  (77,48,4300),
+  (31,40,4042),
+  (21,60,3223);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (56,95,4840),
+  (5,81,3333),
+  (35,32,4466),
+  (83,23,4354),
+  (8,22,4729),
+  (81,54,3206),
+  (18,65,3478),
+  (36,28,2752),
+  (76,45,3451),
+  (62,8,3462);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (6,97,3459),
+  (35,27,4724),
+  (64,51,3062),
+  (79,35,3646),
+  (41,26,4728),
+  (51,91,2422),
+  (28,53,4720),
+  (16,17,3760),
+  (20,44,3559),
+  (75,52,2319);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (16,69,2443),
+  (82,67,2477),
+  (34,43,4006),
+  (28,82,4288),
+  (29,80,4568),
+  (40,5,4589),
+  (64,65,4322),
+  (85,58,3175),
+  (16,16,2226),
+  (69,69,2675);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (6,39,4229),
+  (43,35,2791),
+  (48,59,2475),
+  (13,3,4756),
+  (97,69,4589),
+  (93,42,3528),
+  (28,26,3469),
+  (8,33,3802),
+  (88,6,4791),
+  (46,65,4931);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (10,90,3801),
+  (96,4,2149),
+  (65,19,4037),
+  (17,32,3161),
+  (66,48,2848),
+  (8,69,2952),
+  (89,54,4559),
+  (76,24,4954),
+  (49,50,3386),
+  (68,27,3041);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (59,42,4236),
+  (23,38,4061),
+  (35,36,3888),
+  (44,31,2617),
+  (7,36,4567),
+  (77,99,3623),
+  (4,73,4915),
+  (23,68,2832),
+  (37,15,3198),
+  (70,53,4845);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (12,83,4086),
+  (40,75,2687),
+  (30,66,2980),
+  (50,78,4538),
+  (54,43,2646),
+  (43,30,3882),
+  (69,99,2829),
+  (86,44,4590),
+  (65,44,3223),
+  (20,74,3391);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (24,68,3907),
+  (64,87,4466),
+  (19,33,4245),
+  (76,89,2541),
+  (16,93,4666),
+  (21,49,4248),
+  (85,94,3228),
+  (45,8,4731),
+  (76,47,3511),
+  (24,52,3886);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (12,30,3564),
+  (16,92,2620),
+  (37,69,2655),
+  (26,75,3930),
+  (47,66,4557),
+  (79,38,3077),
+  (99,62,3070),
+  (64,43,4456),
+  (64,54,2058),
+  (92,21,3540);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (56,82,3937),
+  (23,39,2540),
+  (32,80,3284),
+  (96,40,2611),
+  (1,70,3336),
+  (65,70,4397),
+  (58,24,2725),
+  (9,31,2895),
+  (84,75,3002),
+  (32,41,2333);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (13,14,2915),
+  (19,23,4548),
+  (25,41,4440),
+  (99,54,4239),
+  (16,88,3011),
+  (7,36,3001),
+  (37,35,4546),
+  (54,88,3325),
+  (86,19,3102),
+  (4,25,4658);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (74,8,4071),
+  (22,64,3010),
+  (35,35,4747),
+  (96,24,4596),
+  (17,25,2279),
+  (63,9,3190),
+  (26,56,3310),
+  (58,91,2497),
+  (18,85,2186),
+  (90,41,4420);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (26,59,3425),
+  (40,38,2022),
+  (5,12,4792),
+  (57,51,3311),
+  (32,90,3294),
+  (99,11,2064),
+  (40,5,3811),
+  (86,92,4529),
+  (94,25,3447),
+  (17,64,2340);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (56,25,2808),
+  (70,53,2226),
+  (96,58,2046),
+  (95,33,4966),
+  (36,17,3417),
+  (88,8,2828),
+  (70,67,2466),
+  (49,15,3155),
+  (88,49,2938),
+  (42,26,3168);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (41,57,4068),
+  (27,37,2032),
+  (22,63,4384),
+  (57,7,4902),
+  (49,27,3324),
+  (37,80,2313),
+  (62,29,3986),
+  (2,59,3091),
+  (47,74,2610),
+  (81,44,4876);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (66,97,2257),
+  (84,28,2102),
+  (30,65,3987),
+  (46,65,2406),
+  (56,6,2518),
+  (55,46,2052),
+  (78,89,4931),
+  (94,63,3223),
+  (33,56,3846),
+  (22,79,3018);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (10,91,2944),
+  (89,39,4471),
+  (32,38,4075),
+  (59,53,2451),
+  (34,86,2562),
+  (23,70,3035),
+  (46,58,2506),
+  (56,58,3622),
+  (19,19,2742),
+  (25,34,2604);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (26,18,2245),
+  (49,96,2620),
+  (24,82,2188),
+  (88,69,3194),
+  (33,54,3584),
+  (76,1,3828),
+  (21,51,2261),
+  (96,59,2667),
+  (98,18,4905),
+  (38,33,4303);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (90,9,4377),
+  (50,38,3666),
+  (10,23,4021),
+  (4,84,2393),
+  (1,38,3560),
+  (33,28,3416),
+  (72,66,3499),
+  (51,76,2696),
+  (88,86,2037),
+  (91,18,3934);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (18,59,2403),
+  (2,48,2924),
+  (86,92,4417),
+  (94,74,4634),
+  (35,82,3905),
+  (60,84,3461),
+  (24,60,3618),
+  (47,75,4741),
+  (52,3,3855),
+  (75,26,3299);
+
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (23,58,3805),
+  (91,53,3149),
+  (19,16,3566),
+  (33,18,4303),
+  (23,77,3934),
+  (47,36,4820),
+  (79,32,4909),
+  (62,80,4093),
+  (18,7,3000),
+  (31,39,3988);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (88,51,4188),
+  (50,21,2419),
+  (26,28,4009),
+  (3,96,3481),
+  (96,89,2621),
+  (83,32,2076),
+  (18,22,3813),
+  (98,74,3390),
+  (27,99,4524),
+  (19,23,3961);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (18,94,3138),
+  (60,48,4034),
+  (72,80,4639),
+  (68,7,2309),
+  (5,67,4031),
+  (23,64,3594),
+  (69,84,4583),
+  (96,9,2979),
+  (100,32,2704),
+  (76,70,2091);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (29,1,4801),
+  (10,91,3873),
+  (8,47,3272),
+  (14,14,2191),
+  (22,42,4143),
+  (19,98,4075),
+  (69,32,2562),
+  (73,6,4055),
+  (36,39,4502),
+  (1,76,3517);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (24,33,2680),
+  (61,94,3013),
+  (70,36,4077),
+  (62,31,3593),
+  (13,28,3819),
+  (62,32,2807),
+  (65,94,4196),
+  (53,73,4908),
+  (10,10,4726),
+  (50,85,4555);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (90,43,4464),
+  (25,79,4763),
+  (6,52,4050),
+  (78,99,2696),
+  (13,38,4547),
+  (40,93,3152),
+  (83,20,3343),
+  (81,37,3230),
+  (82,99,2209),
+  (15,40,3509);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (29,74,2517),
+  (61,68,3637),
+  (24,4,4902),
+  (83,61,4973),
+  (54,33,4625),
+  (39,16,2745),
+  (44,54,4502),
+  (70,55,4402),
+  (7,69,2876),
+  (11,89,2219);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (6,46,2834),
+  (19,55,4097),
+  (30,75,3076),
+  (89,88,3396),
+  (88,28,2319),
+  (86,84,2600),
+  (78,21,2419),
+  (90,18,2513),
+  (28,34,4736),
+  (52,79,2026);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (30,64,3274),
+  (38,7,2583),
+  (97,54,2745),
+  (77,86,2778),
+  (74,9,4378),
+  (8,15,3267),
+  (56,59,4966),
+  (96,54,4564),
+  (59,99,2374),
+  (29,49,2161);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (49,14,4208),
+  (25,73,3431),
+  (53,98,2661),
+  (71,15,3572),
+  (39,20,3961),
+  (52,89,3955),
+  (85,78,2259),
+  (39,70,3653),
+  (2,40,4688),
+  (14,21,2330);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (27,61,2255),
+  (38,4,3610),
+  (70,50,2758),
+  (17,27,4290),
+  (32,29,4741),
+  (11,80,3234),
+  (21,52,3802),
+  (24,65,4818),
+  (11,73,3570),
+  (19,13,4808);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (71,52,2611),
+  (39,85,2141),
+  (6,89,2203),
+  (44,16,4360),
+  (34,75,3895),
+  (31,15,3705),
+  (84,14,3209),
+  (59,36,3658),
+  (87,88,2792),
+  (29,51,2565);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (16,99,4399),
+  (43,10,4941),
+  (2,71,2647),
+  (47,55,4223),
+  (17,57,2295),
+  (19,69,3868),
+  (86,7,3942),
+  (20,40,4112),
+  (63,70,4745),
+  (86,75,2221);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (71,99,4988),
+  (89,87,3574),
+  (52,7,4950),
+  (13,43,4330),
+  (29,2,4370),
+  (1,75,2085),
+  (78,80,3176),
+  (60,60,3910),
+  (62,63,2644),
+  (4,66,2510);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (51,84,4998),
+  (33,39,4714),
+  (36,57,3766),
+  (43,11,3075),
+  (48,84,2359),
+  (32,72,3419),
+  (43,71,4260),
+  (90,77,4062),
+  (19,38,3509),
+  (42,22,2168);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (12,19,2749),
+  (37,16,3072),
+  (85,88,3492),
+  (33,29,2824),
+  (69,8,4339),
+  (68,66,4900),
+  (34,13,4125),
+  (94,82,4116),
+  (33,57,3364),
+  (90,87,4561);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (3,75,2631),
+  (45,64,3161),
+  (43,53,2682),
+  (53,7,2687),
+  (37,45,3597),
+  (78,86,3457),
+  (38,41,4959),
+  (64,38,4343),
+  (21,61,2483),
+  (99,23,3124);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (14,26,3581),
+  (63,30,2671),
+  (91,18,3396),
+  (37,67,3379),
+  (63,44,3091),
+  (1,12,2719),
+  (33,45,2570),
+  (85,68,2137),
+  (87,70,4576),
+  (59,34,3692);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (79,83,2751),
+  (79,46,3486),
+  (21,90,2662),
+  (7,53,3293),
+  (33,79,3828),
+  (22,88,2410),
+  (75,92,2798),
+  (98,96,4556),
+  (66,15,4459),
+  (89,31,3563);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (68,37,4922),
+  (14,84,4787),
+  (50,55,4418),
+  (13,5,3293),
+  (10,22,4991),
+  (53,66,4085),
+  (3,31,3598),
+  (53,70,2641),
+  (35,41,2746),
+  (4,52,3951);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (45,98,2804),
+  (45,90,2494),
+  (97,76,2035),
+  (70,60,3731),
+  (9,59,2882),
+  (91,51,4547),
+  (56,10,3260),
+  (77,50,2556),
+  (36,39,2665),
+  (41,1,4684);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (65,29,4925),
+  (67,34,3557),
+  (65,2,4131),
+  (66,10,3763),
+  (99,9,4419),
+  (87,72,4009),
+  (83,77,2930),
+  (85,72,4653),
+  (17,53,2045),
+  (87,14,2562);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (80,81,3425),
+  (72,35,2438),
+  (45,7,4597),
+  (53,61,2622),
+  (34,43,3752),
+  (35,3,2707),
+  (65,70,2977),
+  (6,75,3986),
+  (33,57,3438),
+  (98,90,3367);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (80,99,4687),
+  (71,86,3010),
+  (55,49,4578),
+  (43,85,3285),
+  (3,55,3921),
+  (35,21,4571),
+  (34,41,4268),
+  (40,74,2061),
+  (70,67,3479),
+  (58,12,4177);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (19,92,2182),
+  (71,45,3541),
+  (79,45,4804),
+  (34,51,3485),
+  (35,92,3865),
+  (46,25,2888),
+  (4,78,2444),
+  (30,28,3299),
+  (47,59,2366),
+  (68,61,4039);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (12,15,2911),
+  (57,9,4790),
+  (67,12,3009),
+  (9,95,3444),
+  (86,8,2862),
+  (8,65,2621),
+  (8,45,2675),
+  (87,50,2833),
+  (85,28,4171),
+  (9,90,2367);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (100,78,3557),
+  (46,97,3698),
+  (30,43,3554),
+  (19,57,2925),
+  (76,34,2835),
+  (68,71,2033),
+  (74,2,3668),
+  (80,74,2050),
+  (87,6,2308),
+  (9,43,2221);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (43,5,4177),
+  (44,2,3981),
+  (24,92,3851),
+  (31,1,3610),
+  (50,94,4138),
+  (89,70,4323),
+  (20,38,2534),
+  (89,37,2972),
+  (34,46,3668),
+  (24,96,2551);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (69,18,3288),
+  (94,40,4499),
+  (54,77,3904),
+  (10,23,3718),
+  (54,30,2258),
+  (4,33,2310),
+  (27,79,2737),
+  (56,15,3154),
+  (81,84,4224),
+  (44,73,3586);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (82,85,4502),
+  (92,4,4876),
+  (40,6,4663),
+  (80,63,4742),
+  (62,13,3175),
+  (46,77,2974),
+  (91,27,3349),
+  (1,91,2609),
+  (19,6,4806),
+  (86,71,3924);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (8,38,2331),
+  (61,79,4569),
+  (18,75,2262),
+  (87,56,3496),
+  (24,9,2098),
+  (26,72,4905),
+  (88,100,2544),
+  (76,18,4595),
+  (2,94,4968),
+  (97,14,2066);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (51,8,4186),
+  (22,52,3696),
+  (39,58,4766),
+  (68,35,3177),
+  (11,13,2663),
+  (68,98,2957),
+  (89,8,4088),
+  (76,54,3684),
+  (65,87,4909),
+  (18,78,4569);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (90,33,2548),
+  (55,90,3047),
+  (80,98,4158),
+  (37,71,3231),
+  (86,53,4880),
+  (2,86,2767),
+  (84,84,4689),
+  (10,82,4546),
+  (89,90,3825),
+  (78,32,4154);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (99,45,3259),
+  (87,47,2595),
+  (21,46,4266),
+  (38,41,2470),
+  (37,63,2529),
+  (51,42,3095),
+  (41,56,4206),
+  (16,81,4815),
+  (56,63,2373),
+  (86,71,2483);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (91,47,3192),
+  (67,71,4555),
+  (69,16,4348),
+  (38,42,3280),
+  (26,90,4113),
+  (83,43,2309),
+  (22,8,2727),
+  (5,82,4192),
+  (98,86,4761),
+  (20,65,3656);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (54,45,3926),
+  (11,17,3311),
+  (19,49,3566),
+  (54,94,3262),
+  (76,80,2554),
+  (31,25,2886),
+  (84,68,2676),
+  (98,24,2128),
+  (14,30,4464),
+  (57,20,3914);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (48,81,3172),
+  (28,18,2176),
+  (53,17,3336),
+  (58,83,2763),
+  (4,53,4043),
+  (42,58,4064),
+  (5,27,2559),
+  (96,45,3728),
+  (69,35,2943),
+  (36,41,3817);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (60,11,3921),
+  (53,90,4401),
+  (16,28,4020),
+  (14,47,3849),
+  (87,22,4034),
+  (61,74,3673),
+  (25,8,4285),
+  (70,71,4452),
+  (8,45,2221),
+  (34,86,3012);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (26,40,2681),
+  (33,18,2902),
+  (56,8,3193),
+  (63,19,2501),
+  (27,86,2691),
+  (81,26,3841),
+  (81,62,2773),
+  (76,39,4757),
+  (42,40,3053),
+  (77,60,2880);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (40,40,2817),
+  (94,29,4194),
+  (17,98,2744),
+  (80,5,2054),
+  (60,4,2412),
+  (51,80,4871),
+  (45,21,3870),
+  (30,81,3201),
+  (32,10,2588),
+  (80,46,2395);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (56,86,4512),
+  (80,32,3155),
+  (21,12,4396),
+  (34,62,4655),
+  (39,29,2145),
+  (26,60,4496),
+  (60,11,3196),
+  (30,68,3440),
+  (2,7,3008),
+  (38,93,4701);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (71,70,4207),
+  (22,16,2080),
+  (9,27,2303),
+  (44,95,3611),
+  (95,25,2993),
+  (37,32,2406),
+  (91,59,3498),
+  (97,94,3427),
+  (12,3,3127),
+  (92,68,4283);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (17,6,4963),
+  (51,4,2904),
+  (48,35,3318),
+  (42,72,2739),
+  (33,90,2611),
+  (60,99,3214),
+  (9,61,2524),
+  (27,56,3471),
+  (17,60,3413),
+  (92,34,3329);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (87,45,3700),
+  (4,54,4226),
+  (55,6,4393),
+  (35,10,3302),
+  (68,82,4367),
+  (5,77,4539),
+  (39,72,2611),
+  (96,10,4046),
+  (9,2,4871),
+  (77,32,3010);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (33,61,4253),
+  (10,65,4903),
+  (10,16,2277),
+  (75,12,3664),
+  (90,39,2567),
+  (35,69,3749),
+  (47,15,4288),
+  (2,34,3988),
+  (23,99,2612),
+  (4,29,3190);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (83,2,4439),
+  (44,73,4560),
+  (75,22,2827),
+  (26,69,2800),
+  (24,74,4257),
+  (76,12,3398),
+  (35,41,4913),
+  (22,85,4640),
+  (34,70,3927),
+  (42,54,3258);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (14,88,2517),
+  (44,70,2857),
+  (60,93,4783),
+  (85,59,2584),
+  (10,32,4129),
+  (76,50,2607),
+  (68,71,4457),
+  (44,87,4059),
+  (49,25,4837),
+  (73,47,3939);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (80,26,3198),
+  (80,20,3203),
+  (57,22,4659),
+  (28,67,2919),
+  (49,38,3759),
+  (78,94,3287),
+  (66,59,4889),
+  (43,44,3949),
+  (58,42,3268),
+  (56,77,4055);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (100,34,3428),
+  (63,6,2855),
+  (91,39,2619),
+  (80,59,3162),
+  (78,27,2652),
+  (57,10,2602),
+  (61,7,3712),
+  (88,19,4050),
+  (89,65,2182),
+  (16,92,4529);
+INSERT INTO ventas (id_producto,id_cliente,total)
+VALUES
+  (23,29,4305),
+  (82,26,4127),
+  (33,20,3190),
+  (90,5,2202),
+  (99,28,4850),
+  (40,18,4707),
+  (96,35,2002),
+  (73,63,4353),
+  (48,72,3090),
+  (65,100,4693);

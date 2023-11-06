@@ -1,0 +1,13 @@
+Ejercicios supermercado:
+
+1) Precio máximo, mínimo y promedio de cada marca.
+2) Stock total de cada producto (en todas las sucursales)
+3) Stock de cada producto, por cada sucursal.
+4) Precio del ticket promedio por sucursal (de todas las ventas de cada sucursal),
+5) Total de ventas por cada marca, de mayor a menor.
+6) Mostrar los clientes más frecuentes (cantidad de compras, no dinero gastado) de mayor a menor.
+7) Mostrar cantidad de empleados por cada sector de cada sucursal.
+8) Mostrar las sucursales con más cantidad de clientes (no de ventas sino clientes únicos). Ordenar de mayor a menor.
+
+Adicionalmente, cada uno deberá hacer 2 ejercicios más a su creatividad.
+Condición: usar algún operador matemático/función y algún condicional tipo WHERE.
