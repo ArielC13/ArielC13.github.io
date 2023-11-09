@@ -44,12 +44,6 @@ fakeDB = {
         carrito: [],
         password: 'Contraseña1111'
     }
-    /*juan123: {
-        productos: [
-
-        ],
-        password: ""
-    }*/
 }
 
 app.get('/', (req, res) => { // devolver todos los productos
@@ -78,21 +72,19 @@ app.post('/login',function(req, res){
         res.send('El usuario o la contraseña son incorrectos')
     }
 */
-    let listaUsernames = Object.keys(fakeDB)
-    let Username = req.cookies.username
-    let Password = req.cookies.password
-    console.log(listaUsernames)
-    //listaUsernames.forEach(function(usuarios){
-    if(fakeDB[req.cookies.username] == Username && fakeDB[req.cookies.username].password == Password){
-            res.cookie('username' , req.cookies.username)
-            res.cookie('password', req.cookies.password)
-            res.send('Cookie is set');
+    if(fakeDB[req.body.username]){
+        if(fakeDB[req.body.username].password == req.body.password){
+            res.cookie('username', req.body.username)
+            res.cookie('password', req.body.password)
+            res.send('Usuario aceptado')
+        }
+        else{
+            res.send('Contraseña incorrecta')
+        }  
     }
     else{
-        console.log('Error de autenticación')
-        res.send('El usuario o la contraseña son incorrectos');
+        res.send('Usuario o contraseña incorrecta')
     }
-    //})
 })
 
 function middlewareAutenticacion(req, res, next){
@@ -120,7 +112,6 @@ function middlewareAutenticacion(req, res, next){
 
 })
 */
-
 app.post('/carrito', function(req,res){
     //let nuevosProductos = req.body.productos
     fakeDB[req.cookies.username].carrito.push(req.body.carrito)
