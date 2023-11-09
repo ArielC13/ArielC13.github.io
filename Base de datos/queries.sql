@@ -8,28 +8,26 @@ join productos_x_supermercados on productos.id = productos_x_supermercados.id_pr
 
 --3) Stock de cada producto, por cada sucursal
 
-select stock_total, stock_sucursal.nombre, stock_sucursal.sucursal from (select sum(productos_x_supermercados.stock)
-as stock_total, productos.nombre, supermercados.sucursal from productos
+select stock_total, stock_sucursal.nombre, stock_sucursal.sucursal, mercado, direccion from (select sum(productos_x_supermercados.stock)
+as stock_total, productos.nombre, supermercados.sucursal, supermercados.nombre as mercado, supermercados.direccion as direccion from productos
 join productos_x_supermercados on productos.id = productos_x_supermercados.id_producto
 join supermercados on productos_x_supermercados.id_supermercado = supermercados.id
-GROUP BY productos.nombre,supermercados.sucursal) as stock_sucursal ORDER BY stock_sucursal.sucursal;
+GROUP BY productos.nombre,supermercados.sucursal, supermercados.nombre, supermercados.direccion) as stock_sucursal ORDER BY stock_sucursal.sucursal;
 
 -- 4) Precio del ticket promedio por sucursal (de todas las ventas de cada sucursal)
 
-select supermercados.sucursal, round (avg(ventas.total)) from productos
+select round (avg(ventas.total)) as ticket_promedio, supermercados.sucursal, supermercados.nombre, supermercados.direccion from productos
 join ventas on productos.id = ventas.id_producto
 join productos_x_supermercados on productos.id = productos_x_supermercados.id_producto
 join supermercados on productos_x_supermercados.id_supermercado = supermercados.id
-GROUP BY supermercados.sucursal;
+GROUP BY supermercados.sucursal, supermercados.nombre, supermercados.direccion;
 
 
 --5) Total de ventas por cada marca, de mayor a menor
 
-select total_ventas.marca, ventas_marca from (select productos.marca, round(avg(ventas.total)) as ventas_marca
+select productos.marca, sum(ventas.total) as ventas_marca
 from productos join ventas on productos.id = ventas.id_producto
-join productos_x_supermercados on productos.id = productos_x_supermercados.id_producto
-join supermercados on productos_x_supermercados.id_supermercado = supermercados.id
-GROUP BY productos.marca) as total_ventas ORDER BY ventas_marca DESC;
+GROUP BY productos.marca ORDER BY ventas_marca DESC;
 
 --6) Mostrar los clientes más frecuentes (cantidad de compras, no dinero gastado) de mayor a menor
 
@@ -49,7 +47,7 @@ ORDER BY empleados_totales.sucursal;
 
 --8) Mostrar las sucursales con más cantidad de clientes (no de ventas sino clientes únicos). Ordenar de mayor a menor
 
-select contar_clientes, clientes_x_sucursal.sucursal, mercado from(select count(clientes) as contar_clientes, supermercados.sucursal,supermercados.nombre as mercado
+select DISTINCT contar_clientes, clientes_x_sucursal.sucursal, mercado from(select count(DISTINCT clientes.id) as contar_clientes, supermercados.sucursal,supermercados.nombre as mercado
 from clientes join ventas on clientes.id = ventas.id_cliente
 join productos_x_supermercados on ventas.id_producto = productos_x_supermercados.id_producto
 join supermercados on productos_x_supermercados.id_supermercado = supermercados.id
