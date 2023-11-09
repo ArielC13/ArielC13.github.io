@@ -47,7 +47,13 @@ ORDER BY empleados_totales.sucursal;
 
 --8) Mostrar las sucursales con más cantidad de clientes (no de ventas sino clientes únicos). Ordenar de mayor a menor
 
-select DISTINCT contar_clientes, clientes_x_sucursal.sucursal, mercado from(select count(DISTINCT clientes.id) as contar_clientes, supermercados.sucursal,supermercados.nombre as mercado
+select contar_clientes, clientes_x_sucursal.sucursal, mercado from (select count(DISTINCT clientes.id) as contar_clientes, supermercados.sucursal,supermercados.nombre as mercado
+from clientes join ventas on clientes.id = ventas.id_cliente
+join productos_x_supermercados on ventas.id_producto = productos_x_supermercados.id_producto
+join supermercados on productos_x_supermercados.id_supermercado = supermercados.id
+GROUP BY supermercados.sucursal, supermercados.nombre) as clientes_x_sucursal ORDER BY contar_clientes DESC;
+
+CREATE VIEW clientes_x_sucursales as select contar_clientes, clientes_x_sucursal.sucursal, mercado from (select count(DISTINCT clientes.id) as contar_clientes, supermercados.sucursal,supermercados.nombre as mercado
 from clientes join ventas on clientes.id = ventas.id_cliente
 join productos_x_supermercados on ventas.id_producto = productos_x_supermercados.id_producto
 join supermercados on productos_x_supermercados.id_supermercado = supermercados.id
