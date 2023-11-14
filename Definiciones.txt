@@ -1,0 +1,13 @@
+Body, Params, Query: son partes de las peticiones que se utilizan para enviar o recibir informacion.
+El body es el único en el que no queda almacenado ningún dato
+
+Servidor web: es un programa que almacena instrucciones e información
+
+Cliente web: es un programa que lee la informacion y ejecuta esas instrucciones
+
+Endpoint: Es una dirección o URL dentro de un servidor web
+que se encarga de responder a una peticion.
+Sirve para obtener y enviar datos e información
+
+Cookies: son datos que quedan almacenados en un navegador indefinidamente
+(hasta que el usuario los borre manualmente)
