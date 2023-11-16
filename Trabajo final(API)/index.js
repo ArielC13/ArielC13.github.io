@@ -7,7 +7,6 @@ var cookieParser = require('cookie-parser')
 app.use(cookieParser());
 
 comentarios = [];
-cometarioSeparado = [];
 
 app.post('/comentario', (req,res) =>{
     comentarios.push(req.body)
