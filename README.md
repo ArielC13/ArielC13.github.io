@@ -10,7 +10,7 @@
 
 Aclaraciones:
 
--Los HTML son responsive a un max-width de 700px
+- Los HTML son responsive a un max-width de 700px
 
 - Los formularios tienen Formspree aplicado
 
