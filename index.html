@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <div class= "encabezado">
+            <div class="contenedor-barra">
+                <div class= "SearchBar">
+                    <input type= "search" name= "input" placeholder= "Buscar" class= "buscador">
+                    <i class="bi bi-search" id= "icono-busqueda"></i>
+                </div>
+            </div>
+            <div class="contenedor-titulo-pagina">
+                <h1 class = "titulo-de-pagina">Man Store</h1>
+            </div>
+            <div class="iconos-encabezado">
+                <div class= "cuenta">
+                    <ul class= "boton-cuenta">
+                        <li>
+                            <a href="#"><i class="bi bi-person-fill" id= "icono-cuenta"></i></a>
+                            <ul class= "desplegable">
+                                <li><a href="./páginas/inicio_sesion.html">Iniciar Sesion</a></li>
+                                <li><a href="./páginas/registro.html">Registrarse</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class= "carrito">
+                    <a href="#" id= "cart-icon"><i class= "fa-solid fa-cart-shopping"></i>(<span id= "cart-count">0</span>)</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class= "barra-opciones">
+        <ul class= "menu-categorias">
+            <li>
+                <a href="./index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="">Ropa</a>
+                <ul class= "menu-opciones">
+                    <li><a href="./páginas/camperas.html">Camperas</a></li>
+                    <li><a href="./páginas/camisetas.html">Camisetas</a></li>
+                    <li><a href="./páginas/pantalones.html">Pantalones</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Calzado</a>
+                <ul class= "menu-opciones">
+                    <li><a href="./páginas/zapatillas.html">Zapatillas</a></li>
+                    <li><a href="./páginas/zapatos.html">Zapatos</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href= "./páginas/ver-todo.html">Ver todo</a>
+            </li>
+            <li>
+                <a href="./páginas/contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class= "titulo-principal">Productos destacados</h2>
+        <div class="contenedor-productos">
+            <div class= "producto">
+                <a href="./páginas/detalles_campera01.html">
+                    <img src= "./img/camperas/01.jpg" alt= "" class= "producto-imagen">
+                </a>
+                <div class= "producto-detalles">
+                    <a href="./páginas/detalles_campera01.html">
+                        <h3 class= "producto-titulo">Campera Varden</h3>
+                    </a>
+                    <p class= "producto-precio">$45000</p>
+                    <button class= "producto-agregar">Agregar</button>
+                </div>
+            </div>
+            <div class= "producto">
+                <a href="./páginas/detalles_camiseta01.html">
+                    <img src= "./img/camisetas/01.jpg" alt= "" class= "producto-imagen">   
+                </a>
+                <div class= "producto-detalles">
+                    <a href="./páginas/detalles_camiseta01.html">
+                        <h3 class= "producto-titulo">Camiseta básica</h3>
+                    </a>
+                    <p class= "producto-precio">$15000</p>
+                    <button class= "producto-agregar">Agregar</button>
+                </div>
+            </div>
+            <div class= "producto">
+                <a href="./páginas/detalles_zapatilla01(azul).html">
+                    <img src= "./img/zapatillas/01(azul).jpg" alt= "" class= "producto-imagen">
+                </a>
+                <div class= "producto-detalles">
+                    <a href="./páginas/detalles_zapatilla01(azul).html">
+                        <h3 class= "producto-titulo">Nike Revolution 7</h3>
+                    </a>
+                    <p class= "producto-precio">$120000</p>
+                    <button class= "producto-agregar">Agregar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section>
+        <div class="informacion-adicional">
+            <div class= "tarjeta">
+                <i class="bi bi-whatsapp" id = "icono-tarjeta"></i>
+                <h2 class= "tarjeta-texto1">Whatsapp</h2>
+                <h3 class= "tarjeta-texto2">Si tenes alguna duda ¡Hablá con nosotros!</h3>
+            </div>
+            <div class= "tarjeta">
+                <i class="bi bi-truck" id = "icono-tarjeta"></i>
+                <h2 class= "tarjeta-texto1">Enviamos tu compra</h2>
+                <h3 class= "tarjeta-texto2">Hacemos envios a todos el país</h3>
+            </div>
+            <div class= "tarjeta">
+                <i class="bi bi-shield-check" id = "icono-tarjeta"></i>
+                <h2 class= "tarjeta-texto1">Comprá con seguridad</h2>
+                <h3 class= "tarjeta-texto2">Tus datos siempre protegidos</h3>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-nosotros">
+            <div class="texto-nosotros">
+                <h2 class= "nosotros">
+                    Sobre nosotros
+                </h2>
+                <p>
+                    Somos una pequeña tienda de ropa y calzado masculino que trabaja con productos 100% de la mejor calidad.
+                </p>
+                <p>
+                    Esperamos que puedas encontrar algo que sea de tu agrado y en caso de ser así agradeceriamos mucho que nos
+                    recomendaras con más gente para seguir creciendo y poder traer más variedad de productos.
+                </p>
+                <p>
+                    ¡Muchas gracias por visitarnos y esperamos volver a verte pronto!
+                </p>
+            </div>
+            <div class="contenedor-img-nosotros">
+                <img src= "./img/sobre nosotros/tiendas_moda_hombre_madrid_124503672.webp" alt= "sobre-nosotros" id = "nosotros-img">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class= "redes-sociales">
+            <h2 class = "seguinos">Seguinos también en nuestras redes sociales</h2>
+            <div class="iconos-rs">
+                <a href= "https://www.x.com">
+                    <img src="./img/redes sociales/Twitter_X.png" alt= "Twitter" id = "iconos">
+                </a>
+                <a href="https://www.instagram.com">
+                    <img src= "./img/redes sociales/Instagram_icon.png" alt= "instagram" id= "iconos">
+                </a>
+                <a href= "https://www.facebook.com">
+                    <img src= "./img/redes sociales/Facebook_Logo.png" alt= "Facebook" id= "iconos">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <div class="whatsapp-fixed">
+        <a href= "https://www.whatsapp.com">
+            <img src= "./img/redes sociales/WhatsApp_icon.png" alt= "whatsapp" id= "whatsapp-icon">
+        </a>
+    </div>
+    <div id= "cart-modal" class= "cart-modal">
+        <div class= "cart-content">
+            <span id= "close-cart" class= "close-cart">&times;</span>
+            <h2>Carrito de compras</h2>
+            <ul id= "cart-items"></ul>
+            <p id= "total">Total: $0</p>
+            <button id= "checkout">Finalizar compra</button>
+            <button id = "vaciar">Vaciar carrito</button>
+        </div>
+     </div>
+
+     <div id= "purchase-modal" class = "purchase-modal">
+        <div class= "purchase-content">
+            <h2>¡Compra finalizada!</h2>
+            <p>Gracias por su compra</p>
+            <button id= "close-purchase">Cerrar</button>
+        </div>
+     </div>
+     <script src= "./js/main.js"></script>
+</body>
+</html>
