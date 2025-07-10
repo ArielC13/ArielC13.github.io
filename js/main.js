@@ -26,7 +26,7 @@ document.querySelectorAll(".producto-agregar").forEach((button) => {
 });
 
 vaciarCart.addEventListener("click", function(){
-    if (confirm("¿Esta seguro que desea vaciar el carrito?")) {
+    if (confirm("¿Está seguro que desea vaciar el carrito?")) {
         cart = [];
         updateCartCount();
         saveCart();
